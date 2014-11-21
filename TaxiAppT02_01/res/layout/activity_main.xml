@@ -3,6 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/yellow"
+    android:clickable="true"
     tools:context="${relativePackage}.${activityClass}" >
 
     <EditText
@@ -23,6 +24,7 @@
         android:layout_below="@+id/register"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="22dp"
+        android:clickable="true"
         android:text="@string/forgotpassword"
         android:textAppearance="?android:attr/textAppearanceSmall" />
 
@@ -32,7 +34,8 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/saveCredentials"
         android:layout_centerHorizontal="true"
-        android:text="@string/login" />
+        android:text="@string/login"
+        android:onClick="" />
 
     <Button
         android:id="@+id/register"

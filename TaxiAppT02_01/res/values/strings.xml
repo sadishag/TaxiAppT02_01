@@ -6,13 +6,27 @@
     <string name="title_activity_login">LoginActivity</string>
     <string name="action_settings">Settings</string>
     <string name="hello_taxisharer">Hello TaxiSharer!</string>
+
     <color name="yellow">#ffd700</color>
+
     <string name="login">Log In</string>
     <string name="register">Register</string>
     <string name="forgotpassword">Forgot Password?</string>
     <string name="rememberme">Remember Me</string>
     <string name="username">Username</string>
     <string name="password">Password</string>
-    
+    <string name="title_activity_main_menu">Main Menu</string>
+    <string name="offertaxi">Offer TaxiShare</string>
+    <string name="requesttaxi">Request TaxiShare</string>
+    <string name="viewprofile">View Profile</string>
+    <string name="viewrides">View Rides</string>
+    <string name="logout">Log Out</string>
+    <string name="checkin">Check In</string>
+    <string name="title_activity_register_screen">Registration</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="confirmpassword">Confirm Password</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
 
 </resources>
