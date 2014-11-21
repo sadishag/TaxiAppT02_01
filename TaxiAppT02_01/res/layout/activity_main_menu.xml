@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/yellow"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <Button
+        android:id="@+id/offertaxishare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="29dp"
+        android:text="@string/offertaxi" />
+
+    <Button
+        android:id="@+id/requesttaxishare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/offertaxishare"
+        android:layout_centerHorizontal="true"
+        android:text="@string/requesttaxi" />
+
+    <Button
+        android:id="@+id/viewprofile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/requesttaxishare"
+        android:layout_centerHorizontal="true"
+        android:text="@string/viewprofile" />
+
+    <Button
+        android:id="@+id/viewrides"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/viewprofile"
+        android:layout_centerHorizontal="true"
+        android:text="@string/viewrides" />
+
+    <Button
+        android:id="@+id/checkin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/viewrides"
+        android:layout_centerHorizontal="true"
+        android:text="@string/checkin" />
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/checkin"
+        android:layout_centerHorizontal="true"
+        android:text="@string/logout" />
+
+</RelativeLayout>
