@@ -39,6 +39,11 @@
             android:name=".RegisterScreen"
             android:label="@string/title_activity_register_screen" >
         </activity>
+        <activity
+            android:name=".CheckinScreen"
+            android:label="@string/title_activity_checkin_screen" >
+        </activity>
+
     </application>
 
 </manifest>
