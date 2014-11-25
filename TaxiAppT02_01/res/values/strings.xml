@@ -7,8 +7,6 @@
     <string name="action_settings">Settings</string>
     <string name="hello_taxisharer">Hello TaxiSharer!</string>
 
-    <color name="yellow">#ffd700</color>
-
     <string name="login">Log In</string>
     <string name="register">Register</string>
     <string name="forgotpassword">Forgot Password?</string>
@@ -28,7 +26,13 @@
     <string name="confirmpassword">Confirm Password</string>
     <string name="male">Male</string>
     <string name="female">Female</string>
+<<<<<<< HEAD
     <string name="title_activity_book_ride">BookRide</string>
     <string name="title_activity_offer_taxi">OfferTaxi</string>
+=======
+    
+    <string name="title_activity_checkin_screen">Checkin Screen</string>
+    <string name="scanQRCode">Scan</string>
+>>>>>>> a30af4dc945ca5c3f3dd04e08e5bd5b856a27f67
 
 </resources>
