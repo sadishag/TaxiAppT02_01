@@ -8,15 +8,15 @@ import android.widget.Button;
 
 public class MainActivity extends Activity {
 
-<<<<<<< HEAD
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_book_ride);
-    }
-}
-=======
-	@Override
+
+//    @Override
+//    protected void onCreate(Bundle savedInstanceState) {
+//        super.onCreate(savedInstanceState);
+//        setContentView(R.layout.activity_book_ride);
+//    }
+//}
+
+@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
@@ -45,4 +45,4 @@ public class MainActivity extends Activity {
 	////		startActivity(mainMenuIntent);
 	//	}
 }
->>>>>>> a30af4dc945ca5c3f3dd04e08e5bd5b856a27f67
+

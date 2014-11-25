@@ -38,22 +38,24 @@
         <activity
             android:name=".RegisterScreen"
             android:label="@string/title_activity_register_screen" >
+            
         </activity>
         <activity
-<<<<<<< HEAD
+
             android:name=".BookRide"
             android:label="@string/title_activity_book_ride" >
         </activity>
+        
         <activity
             android:name=".OfferTaxi"
             android:label="@string/title_activity_offer_taxi" >
+            
         </activity>
-=======
+        <activity
             android:name=".CheckinScreen"
             android:label="@string/title_activity_checkin_screen" >
         </activity>
 
->>>>>>> a30af4dc945ca5c3f3dd04e08e5bd5b856a27f67
     </application>
 
 </manifest>
