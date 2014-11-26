@@ -36,6 +36,11 @@ public class MainActivity extends Activity {
 		});
 	}
 
+    public void pressRegister(View view) {
+        Intent registerIntent = new Intent(this, RegisterScreen.class);
+        startActivity(registerIntent);
+    }
+
 	//	private void testMainMenu(View view){
 	//
 	//		
