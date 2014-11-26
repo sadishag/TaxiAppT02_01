@@ -1113,11 +1113,7 @@ containing a value of this type.
         public static final int expand_activities_button=0x7f050026;
         public static final int expanded_menu=0x7f05002c;
         public static final int female=0x7f05004f;
-<<<<<<< HEAD
-        public static final int forgotpassword=0x7f05003f;
-=======
         public static final int forgotpassword=0x7f050040;
->>>>>>> 8519c622dd3e0de316d52a0573ce0c1afd13bd10
         public static final int gender=0x7f05004d;
         public static final int home=0x7f050014;
         public static final int homeAsUp=0x7f050005;
@@ -1126,11 +1122,7 @@ containing a value of this type.
         public static final int image=0x7f050027;
         public static final int listMode=0x7f050001;
         public static final int list_item=0x7f050029;
-<<<<<<< HEAD
-        public static final int login=0x7f050041;
-=======
         public static final int login=0x7f050042;
->>>>>>> 8519c622dd3e0de316d52a0573ce0c1afd13bd10
         public static final int logout=0x7f050049;
         public static final int male=0x7f05004e;
         public static final int middle=0x7f050012;
@@ -1139,15 +1131,6 @@ containing a value of this type.
         public static final int none=0x7f050010;
         public static final int normal=0x7f050000;
         public static final int offertaxishare=0x7f050044;
-<<<<<<< HEAD
-        public static final int password=0x7f05003d;
-        public static final int progress_circular=0x7f050018;
-        public static final int progress_horizontal=0x7f050019;
-        public static final int radio=0x7f05002f;
-        public static final int register=0x7f050040;
-        public static final int requesttaxishare=0x7f050045;
-        public static final int saveCredentials=0x7f050042;
-=======
         public static final int password=0x7f05003f;
         public static final int progress_circular=0x7f050018;
         public static final int progress_horizontal=0x7f050019;
@@ -1155,7 +1138,6 @@ containing a value of this type.
         public static final int register=0x7f050041;
         public static final int requesttaxishare=0x7f050045;
         public static final int saveCredentials=0x7f050043;
->>>>>>> 8519c622dd3e0de316d52a0573ce0c1afd13bd10
         public static final int scanQRCodeButton=0x7f05003c;
         public static final int search_badge=0x7f050032;
         public static final int search_bar=0x7f050031;
@@ -1174,20 +1156,12 @@ containing a value of this type.
         public static final int split_action_bar=0x7f05001e;
         public static final int submit_area=0x7f050039;
         public static final int tabMode=0x7f050002;
-<<<<<<< HEAD
-        public static final int textView1=0x7f050043;
-=======
         public static final int textView1=0x7f05003e;
->>>>>>> 8519c622dd3e0de316d52a0573ce0c1afd13bd10
         public static final int title=0x7f05002b;
         public static final int top_action_bar=0x7f050020;
         public static final int up=0x7f050021;
         public static final int useLogo=0x7f050003;
-<<<<<<< HEAD
-        public static final int username=0x7f05003e;
-=======
         public static final int username=0x7f05003d;
->>>>>>> 8519c622dd3e0de316d52a0573ce0c1afd13bd10
         public static final int viewprofile=0x7f050046;
         public static final int viewrides=0x7f050047;
         public static final int withText=0x7f05000c;
