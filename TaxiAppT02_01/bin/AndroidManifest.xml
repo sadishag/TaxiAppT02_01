@@ -55,6 +55,14 @@
             android:name=".EndOfRideScreen"
             android:label="@string/title_activity_end_of_ride_screen" >
         </activity>
+        <activity
+            android:name=".ResetPasswordScreen"
+            android:label="@string/title_activity_reset_password_screen" >
+        </activity>
+        <activity
+            android:name=".EmailSentNotificationScreen"
+            android:label="@string/title_activity_email_sent_notification_screen" >
+        </activity>
     </application>
 
 </manifest>

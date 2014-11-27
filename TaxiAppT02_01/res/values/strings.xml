@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">TaxiSharer</string>
+    <string name="app_name">TaxiShare</string>
     <string name="hello_world">Hello world!</string>
     <string name="title_activity_login">LoginActivity</string>
     <string name="action_settings">Settings</string>
@@ -27,9 +27,16 @@
     <string name="female">Female</string>
     <string name="title_activity_book_ride">BookRide</string>
     <string name="title_activity_offer_taxi">OfferTaxi</string>
-    <string name="title_activity_checkin_screen">Checkin Screen</string>
+    <string name="title_activity_checkin_screen">CheckinScreen</string>
     <string name="scanQRCode">Scan</string>
     <string name="title_activity_rating_form">RatingForm</string>
     <string name="title_activity_end_of_ride_screen">EndOfRideScreen</string>
-
+    <string name="scan_instruction_text_view">Please press scan and scan the Taxi QRcode in order to checkin to your ride.</string>
+    <string name="reset_password_instruction_text_view">To reset your password, enter your email address and a temporary password will be sent to you.</string>
+    <string name="submit">Submit</string>
+    <string name="title_activity_reset_password_screen">ResetPassword</string>
+    <string name="email_sent_notification_success">An email has been sent!</string>
+    <string name="done">Done</string>
+    <string name="title_activity_email_sent_notification_screen">EmailSent</string>
+    
 </resources>
