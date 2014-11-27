@@ -19,28 +19,36 @@ public class MainMenu extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main_menu);
-		addListenerOnButton();
+		
 		
 	}
 	
-	private void addListenerOnButton(){
+	public void checkinButtonOnClick(View v){
 		
-		final Context context = this;
-		
-		Button button = (Button) findViewById(R.id.checkin);
-		
-		button.setOnClickListener(new OnClickListener() {
-
-			@Override
-			public void onClick(View v) {
-				Intent intent = new Intent(context, CheckinScreen.class);
-				startActivity(intent);
+		Intent checkinScreenIntent = new Intent(this, CheckinScreen.class);
+		startActivity(checkinScreenIntent);
 				
-			}
-			
-		});
-		
 	}
+	
+	
+//	private void addListenerOnButton(){
+//		
+//		final Context context = this;
+//		
+//		Button button = (Button) findViewById(R.id.checkin);
+//		
+//		button.setOnClickListener(new OnClickListener() {
+//
+//			@Override
+//			public void onClick(View v) {
+//				Intent intent = new Intent(context, CheckinScreen.class);
+//				startActivity(intent);
+//				
+//			}
+//			
+//		});
+//	}
+		
 	
 //	private void checkinScreenLaunch(View view){
 //		
