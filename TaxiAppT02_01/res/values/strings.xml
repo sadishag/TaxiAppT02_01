@@ -31,5 +31,8 @@
     <string name="scanQRCode">Scan</string>
     <string name="title_activity_rating_form">RatingForm</string>
     <string name="title_activity_end_of_ride_screen">EndOfRideScreen</string>
+    <color name="red">#ff00</color>
+    <string name="bookRide">Book Future Ride</string>
+    <string name="offerTaxi">Offer Current Taxi</string>
 
 </resources>

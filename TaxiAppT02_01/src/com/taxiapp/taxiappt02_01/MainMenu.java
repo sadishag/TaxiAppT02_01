@@ -14,48 +14,88 @@ import android.view.ViewGroup;
 import android.widget.Button;
 
 public class MainMenu extends Activity {
-
+	
+	Button offer, requst, viewPro, viewRide, checkIn, logOut;
+	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main_menu);
 		
+		offer = (Button) findViewById(R.id.offertaxishare);
+		requst = (Button) findViewById(R.id.requesttaxishare);
+		viewPro = (Button) findViewById(R.id.viewprofile);
+		viewRide = (Button) findViewById(R.id.viewrides);
+		checkIn = (Button) findViewById(R.id.checkin);
+		logOut = (Button) findViewById(R.id.logout);
 		
-	}
-	
-	public void checkinButtonOnClick(View v){
 		
-		Intent checkinScreenIntent = new Intent(this, CheckinScreen.class);
-		startActivity(checkinScreenIntent);
-				
-	}
-	
-	
-//	private void addListenerOnButton(){
-//		
-//		final Context context = this;
-//		
-//		Button button = (Button) findViewById(R.id.checkin);
-//		
-//		button.setOnClickListener(new OnClickListener() {
-//
+		offer.setOnClickListener(new View.OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				Intent intent = new Intent(MainMenu.this, OfferTaxi.class);
+                startActivity(intent);  				
+			}
+		});
+		
+		
+		//for requst taxi button
+		
+//		requst.setOnClickListener(new View.OnClickListener() {
+//			
 //			@Override
 //			public void onClick(View v) {
-//				Intent intent = new Intent(context, CheckinScreen.class);
-//				startActivity(intent);
-//				
+//				Intent intent = new Intent(MainMenu.this, RequstTaxi.class);
+//                startActivity(intent);  				
 //			}
-//			
 //		});
-//	}
 		
-	
-//	private void checkinScreenLaunch(View view){
-//		
-//		// link Checkin button to CheckinScreen.
-//		Intent checkinIntent = new Intent(this, CheckinScreen.class);
-//		startActivity(checkinIntent);
-//	}
-	
+		
+		//for view profile button
+//		viewPro.setOnClickListener(new View.OnClickListener() {
+//			
+//			@Override
+//			public void onClick(View v) {
+//				Intent intent = new Intent(MainMenu.this, viewPro.class);
+//                startActivity(intent);  				
+//			}
+//		});
+		
+		//for view ride button
+//		viewRide.setOnClickListener(new View.OnClickListener() {
+//			
+//			@Override
+//			public void onClick(View v) {
+//				Intent intent = new Intent(MainMenu.this, OfferTaxi.class);
+//                startActivity(intent);  				
+//			}
+//		});
+		
+		
+		//for check in button
+		checkIn.setOnClickListener(new View.OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				Intent intent = new Intent(MainMenu.this, CheckinScreen.class);
+                startActivity(intent);  				
+			}
+		});
+		
+		//for logout button
+		logOut.setOnClickListener(new View.OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				Intent intent = new Intent(MainMenu.this, MainActivity.class);
+                startActivity(intent);  				
+			}
+		});
+		
+		
+	}
 	
 }
+	
+	
