@@ -44,7 +44,8 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/viewrides"
         android:layout_centerHorizontal="true"
-        android:text="@string/checkin" />
+        android:text="@string/checkin"
+        android:onClick="checkinButtonOnClick" />
 
     <Button
         android:id="@+id/logout"
