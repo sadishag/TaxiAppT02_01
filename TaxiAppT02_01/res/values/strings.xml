@@ -31,6 +31,7 @@
     <string name="scanQRCode">Scan</string>
     <string name="title_activity_rating_form">RatingForm</string>
     <string name="title_activity_end_of_ride_screen">EndOfRideScreen</string>
+<<<<<<< HEAD
     <string name="scan_instruction_text_view">Please press scan and scan the Taxi QRcode in order to checkin to your ride.</string>
     <string name="reset_password_instruction_text_view">To reset your password, enter your email address and a temporary password will be sent to you.</string>
     <string name="submit">Submit</string>
@@ -39,4 +40,10 @@
     <string name="done">Done</string>
     <string name="title_activity_email_sent_notification_screen">EmailSent</string>
     
+=======
+    <color name="red">#ff00</color>
+    <string name="bookRide">Book Future Ride</string>
+    <string name="offerTaxi">Offer Current Taxi</string>
+
+>>>>>>> 8b7a051ab8c799c95b86b32afa0b541f3876a46b
 </resources>
