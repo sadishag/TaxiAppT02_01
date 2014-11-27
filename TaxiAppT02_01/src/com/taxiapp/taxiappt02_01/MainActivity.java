@@ -9,22 +9,26 @@ import android.widget.Button;
 public class MainActivity extends Activity {
 
 
-//    @Override
-//    protected void onCreate(Bundle savedInstanceState) {
-//        super.onCreate(savedInstanceState);
-//        setContentView(R.layout.activity_book_ride);
-//    }
-//}
+	//    @Override
+	//    protected void onCreate(Bundle savedInstanceState) {
+	//        super.onCreate(savedInstanceState);
+	//        setContentView(R.layout.activity_book_ride);
+	//    }
+	//}
 
-@Override
+	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 
 
 		Button mainMenuButton = (Button) findViewById(R.id.login);
+<<<<<<< HEAD
 		Button registerButton = (Button) findViewById(R.id.register);
 		
+=======
+
+>>>>>>> 38a3df43d48fddfe302b0bf709588d977fd85f1a
 
 		mainMenuButton.setOnClickListener(new View.OnClickListener()
 		{
@@ -37,6 +41,7 @@ public class MainActivity extends Activity {
 
 			}
 		});
+<<<<<<< HEAD
     }
 //    registerButton.setOnClickListener(new View.OnClickListener()
 //    {
@@ -57,7 +62,24 @@ public class MainActivity extends Activity {
 //        Intent registerIntent = new Intent(this, RegisterScreen.class);
 //        startActivity(registerIntent);
 //    }
+=======
+	}
 
+	public void pressRegister(View view) {
+>>>>>>> 38a3df43d48fddfe302b0bf709588d977fd85f1a
+
+		//link Register button to RegisterScreen
+		Intent registerIntent = new Intent(this, RegisterScreen.class);
+		startActivity(registerIntent);
+	}
+
+	
+	public void listenToForgotPassword(View view) {
+		
+		Intent forgotPasswordIntent = new Intent(this, ResetPasswordScreen.class);
+		startActivity(forgotPasswordIntent);
+	}
+	
 	//	private void testMainMenu(View view){
 	//
 	//		

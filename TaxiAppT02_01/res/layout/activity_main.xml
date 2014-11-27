@@ -10,7 +10,7 @@
         android:id="@+id/username"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/textView1"
+        android:layout_below="@+id/testTextView"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="47dp"
         android:ems="10"
@@ -36,7 +36,8 @@
         android:layout_marginTop="22dp"
         android:clickable="true"
         android:text="@string/forgotpassword"
-        android:textAppearance="?android:attr/textAppearanceSmall" />
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:onClick="listenToForgotPassword" />
 
     <Button
         android:id="@+id/login"
@@ -64,7 +65,7 @@
         android:text="@string/rememberme" />
 
     <TextView
-        android:id="@+id/textView1"
+        android:id="@+id/testTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
