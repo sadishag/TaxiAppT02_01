@@ -1,7 +1,5 @@
 package com.taxiapp.taxiappt02_01;
 
-import com.google.android.gms.maps.MapFragment;
-
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;

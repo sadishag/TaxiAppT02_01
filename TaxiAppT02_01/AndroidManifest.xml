@@ -73,7 +73,7 @@
             android:label="@string/title_activity_end_of_ride_screen" >
         </activity>
         <activity
-<<<<<<< HEAD
+
             android:name=".RideInProgressScreen"
             android:label="@string/title_activity_ride_in_progress_screen" >
         </activity>
@@ -82,15 +82,16 @@
             android:name="com.google.android.maps.v2.AIzaSyB8zyqQgqerdhIFJmwXa9sfdGTJaSjw_D0"
             android:value="AIzaSyB8zyqQgqerdhIFJmwXa9sfdGTJaSjw_D0" />
         
-=======
+        <activity
             android:name=".ResetPasswordScreen"
             android:label="@string/title_activity_reset_password_screen" >
         </activity>
+        
         <activity
             android:name=".EmailSentNotificationScreen"
             android:label="@string/title_activity_email_sent_notification_screen" >
         </activity>
->>>>>>> 38a3df43d48fddfe302b0bf709588d977fd85f1a
+
     </application>
 
 </manifest>
