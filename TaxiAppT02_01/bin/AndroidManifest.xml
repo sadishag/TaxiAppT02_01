@@ -7,7 +7,8 @@
     <uses-sdk
         android:minSdkVersion="8"
         android:targetSdkVersion="21" />
-
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <application
         android:allowBackup="true"
         android:icon="@drawable/icon2"
@@ -33,24 +34,27 @@
         <activity
             android:name=".RegisterScreen"
             android:label="@string/title_activity_register_screen" >
-            
         </activity>
         <activity
-
             android:name=".BookRide"
             android:label="@string/title_activity_book_ride" >
         </activity>
-        
         <activity
             android:name=".OfferTaxi"
             android:label="@string/title_activity_offer_taxi" >
-            
         </activity>
         <activity
             android:name=".CheckinScreen"
             android:label="@string/title_activity_checkin_screen" >
         </activity>
-
+        <activity
+            android:name=".RatingForm"
+            android:label="@string/title_activity_rating_form" >
+        </activity>
+        <activity
+            android:name=".EndOfRideScreen"
+            android:label="@string/title_activity_end_of_ride_screen" >
+        </activity>
     </application>
 
 </manifest>
