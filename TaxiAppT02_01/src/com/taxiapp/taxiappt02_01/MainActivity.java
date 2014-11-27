@@ -23,7 +23,7 @@ public class MainActivity extends Activity {
 
 
 		Button mainMenuButton = (Button) findViewById(R.id.login);
-
+//		Button registerButton = (Button) findViewById(R.id.register);
 
 		mainMenuButton.setOnClickListener(new View.OnClickListener()
 		{
@@ -36,7 +36,27 @@ public class MainActivity extends Activity {
 
 			}
 		});
-	}
+    }
+//    registerButton.setOnClickListener(new View.OnClickListener()
+//    {
+//    
+//        @Override
+//        public void onClick(View v) {
+//    
+//    
+//            startActivity(new Intent(MainActivity.this, RegisterScreen.class));
+//    
+//        }
+//    });
+//    }
+
+//    public void pressRegister(View view) {
+//        
+//        //link Register button to RegisterScreen
+//        Intent registerIntent = new Intent(this, RegisterScreen.class);
+//        startActivity(registerIntent);
+//    }
+//	}
 
 	public void pressRegister(View view) {
 
