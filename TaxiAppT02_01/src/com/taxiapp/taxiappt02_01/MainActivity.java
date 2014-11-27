@@ -23,8 +23,10 @@ public class MainActivity extends Activity {
 
 
 		Button mainMenuButton = (Button) findViewById(R.id.login);
+		
 
-		mainMenuButton.setOnClickListener(new View.OnClickListener(){
+		mainMenuButton.setOnClickListener(new View.OnClickListener()
+		{
 
 			@Override
 			public void onClick(View v) {
@@ -37,6 +39,8 @@ public class MainActivity extends Activity {
 	}
 
     public void pressRegister(View view) {
+        
+        //link Register button to RegisterScreen
         Intent registerIntent = new Intent(this, RegisterScreen.class);
         startActivity(registerIntent);
     }
