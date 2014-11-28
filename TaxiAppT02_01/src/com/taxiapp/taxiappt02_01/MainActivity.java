@@ -72,6 +72,11 @@ public class MainActivity extends Activity {
 		startActivity(forgotPasswordIntent);
 	}
 	
+	public void goToRideInProgressScren(View view) {
+	    Intent rideInProgressIntent = new Intent(this, RideInProgressScreen.class);
+	    startActivity(rideInProgressIntent);
+	}
+	
 	//	private void testMainMenu(View view){
 	//
 	//		
