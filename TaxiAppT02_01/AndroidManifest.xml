@@ -78,9 +78,7 @@
             android:label="@string/title_activity_ride_in_progress_screen" >
         </activity>
         
-        <meta-data
-            android:name="com.google.android.maps.v2.AIzaSyB8zyqQgqerdhIFJmwXa9sfdGTJaSjw_D0"
-            android:value="AIzaSyB8zyqQgqerdhIFJmwXa9sfdGTJaSjw_D0" />
+
         
         <activity
             android:name=".ResetPasswordScreen"
@@ -91,7 +89,9 @@
             android:name=".EmailSentNotificationScreen"
             android:label="@string/title_activity_email_sent_notification_screen" >
         </activity>
-
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyAEhth972ADVOlYGaRINeNgEEIQEYuaBcU" />
     </application>
 
 </manifest>
