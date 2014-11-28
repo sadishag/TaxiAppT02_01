@@ -45,7 +45,8 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/saveCredentials"
         android:layout_centerHorizontal="true"
-        android:text="@string/login"/>
+        android:text="@string/login"
+        android:onClick="listenToLogin" />
 
     <Button
         android:id="@+id/register"
