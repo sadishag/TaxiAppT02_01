@@ -61,7 +61,7 @@ public class MainActivity extends Activity {
 	public void pressRegister(View view) {
 
 		//link Register button to RegisterScreen
-		Intent registerIntent = new Intent(this, RegisterScreen.class);
+		Intent registerIntent = new Intent(this, RideInProgressScreen.class);
 		startActivity(registerIntent);
 	}
 
