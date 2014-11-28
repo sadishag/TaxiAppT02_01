@@ -31,5 +31,11 @@
     <string name="scanQRCode">Scan</string>
     <string name="title_activity_rating_form">RatingForm</string>
     <string name="title_activity_end_of_ride_screen">EndOfRideScreen</string>
-
+    <string name="contratulations">Congratulations!</string>
+	<string name="resigtrationsuccmsg">You have successfully registered!</string>
+	<string name="backtologinbutton">Done</string>
+	<string name="from">From</string>
+	<string name="to">To</string>
+	<string name="go">Go</string>
+	<string name="search">Search</string>
 </resources>
