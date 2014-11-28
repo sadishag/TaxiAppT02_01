@@ -2,11 +2,39 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="${relativePackage}.${activityClass}" >
-
+    tools:context="com.taxiapp.taxiappt02_01.OfferTaxi"
+    android:background="@color/yellow" >
+    
     <TextView
+        android:id="@+id/offerText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/hello_world" />
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:textSize="24dp"
+        android:textColor="@color/red"
+        android:text="Choose following option:"
+        />
+    
+    <Button
+        android:id="@+id/offerCurrent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/offerText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="66dp"
+        android:text="@string/offerTaxi" />
+    	
+    
+   <Button
+        android:id="@+id/bookRide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/offerCurrent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="36dp"
+        android:text="@string/bookRide" />
 
 </RelativeLayout>

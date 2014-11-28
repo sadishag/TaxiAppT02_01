@@ -858,11 +858,20 @@ containing a value of this type.
         public static final int abc_split_action_bar_is_narrow=0x7f060002;
     }
     public static final class color {
+<<<<<<< HEAD
         public static final int abc_search_url_text_holo=0x7f070004;
         public static final int abc_search_url_text_normal=0x7f070000;
         public static final int abc_search_url_text_pressed=0x7f070002;
         public static final int abc_search_url_text_selected=0x7f070001;
         public static final int yellow=0x7f070003;
+=======
+        public static final int abc_search_url_text_holo=0x7f060005;
+        public static final int abc_search_url_text_normal=0x7f060000;
+        public static final int abc_search_url_text_pressed=0x7f060002;
+        public static final int abc_search_url_text_selected=0x7f060001;
+        public static final int red=0x7f060004;
+        public static final int yellow=0x7f060003;
+>>>>>>> 66e1afd4016820dd65585e219b2aa5ea2feb7de7
     }
     public static final class dimen {
         /**  Default height of an action bar. 
@@ -1084,6 +1093,7 @@ containing a value of this type.
         public static final int icon2=0x7f02005a;
     }
     public static final class id {
+<<<<<<< HEAD
         public static final int action_bar=0x7f05001c;
         public static final int action_bar_activity_content=0x7f050015;
         public static final int action_bar_container=0x7f05001b;
@@ -1170,6 +1180,98 @@ containing a value of this type.
         public static final int viewprofile=0x7f050046;
         public static final int viewrides=0x7f050047;
         public static final int withText=0x7f05000c;
+=======
+        public static final int action_bar=0x7f09001c;
+        public static final int action_bar_activity_content=0x7f090001;
+        public static final int action_bar_container=0x7f09001b;
+        public static final int action_bar_overlay_layout=0x7f09001f;
+        public static final int action_bar_root=0x7f09001a;
+        public static final int action_bar_subtitle=0x7f090023;
+        public static final int action_bar_title=0x7f090022;
+        public static final int action_context_bar=0x7f09001d;
+        public static final int action_menu_divider=0x7f090002;
+        public static final int action_menu_presenter=0x7f090003;
+        public static final int action_mode_close_button=0x7f090024;
+        public static final int action_settings=0x7f090059;
+        public static final int activity_chooser_view_content=0x7f090025;
+        public static final int always=0x7f09000f;
+        public static final int beginning=0x7f090016;
+        public static final int bookRide=0x7f09004f;
+        public static final int checkbox=0x7f09002d;
+        public static final int checkin=0x7f09004b;
+        public static final int collapseActionView=0x7f090010;
+        public static final int confirmpassword=0x7f090052;
+        public static final int default_activity_button=0x7f090028;
+        public static final int dialog=0x7f090014;
+        public static final int disableHome=0x7f090009;
+        public static final int doneEmailSentButton=0x7f09003f;
+        public static final int dropdown=0x7f090015;
+        public static final int edit_query=0x7f090030;
+        public static final int email=0x7f090051;
+        public static final int emailResetEditText=0x7f090057;
+        public static final int emailResetSubmitButton=0x7f090058;
+        public static final int emailSentNotifTextView=0x7f09003e;
+        public static final int end=0x7f090017;
+        public static final int expand_activities_button=0x7f090026;
+        public static final int expanded_menu=0x7f09002c;
+        public static final int female=0x7f090055;
+        public static final int forgotpassword=0x7f090043;
+        public static final int gender=0x7f090053;
+        public static final int home=0x7f090000;
+        public static final int homeAsUp=0x7f09000a;
+        public static final int icon=0x7f09002a;
+        public static final int ifRoom=0x7f090011;
+        public static final int image=0x7f090027;
+        public static final int listMode=0x7f090006;
+        public static final int list_item=0x7f090029;
+        public static final int login=0x7f090045;
+        public static final int logout=0x7f09004c;
+        public static final int male=0x7f090054;
+        public static final int middle=0x7f090018;
+        public static final int name=0x7f090050;
+        public static final int never=0x7f090012;
+        public static final int none=0x7f090019;
+        public static final int normal=0x7f090007;
+        public static final int offerCurrent=0x7f09004e;
+        public static final int offerText=0x7f09004d;
+        public static final int offertaxishare=0x7f090047;
+        public static final int password=0x7f090042;
+        public static final int progress_circular=0x7f090004;
+        public static final int progress_horizontal=0x7f090005;
+        public static final int radio=0x7f09002f;
+        public static final int register=0x7f090044;
+        public static final int requesttaxishare=0x7f090048;
+        public static final int resetPasswordTextView=0x7f090056;
+        public static final int saveCredentials=0x7f090046;
+        public static final int scanInstructionTextView=0x7f09003d;
+        public static final int scanQRCodeButton=0x7f09003c;
+        public static final int search_badge=0x7f090032;
+        public static final int search_bar=0x7f090031;
+        public static final int search_button=0x7f090033;
+        public static final int search_close_btn=0x7f090038;
+        public static final int search_edit_frame=0x7f090034;
+        public static final int search_go_btn=0x7f09003a;
+        public static final int search_mag_icon=0x7f090035;
+        public static final int search_plate=0x7f090036;
+        public static final int search_src_text=0x7f090037;
+        public static final int search_voice_btn=0x7f09003b;
+        public static final int shortcut=0x7f09002e;
+        public static final int showCustom=0x7f09000b;
+        public static final int showHome=0x7f09000c;
+        public static final int showTitle=0x7f09000d;
+        public static final int split_action_bar=0x7f09001e;
+        public static final int submit_area=0x7f090039;
+        public static final int tabMode=0x7f090008;
+        public static final int testTextView=0x7f090041;
+        public static final int title=0x7f09002b;
+        public static final int top_action_bar=0x7f090020;
+        public static final int up=0x7f090021;
+        public static final int useLogo=0x7f09000e;
+        public static final int username=0x7f090040;
+        public static final int viewprofile=0x7f090049;
+        public static final int viewrides=0x7f09004a;
+        public static final int withText=0x7f090013;
+>>>>>>> 66e1afd4016820dd65585e219b2aa5ea2feb7de7
     }
     public static final class integer {
         /**  The maximum number of action buttons that should be permitted within
@@ -1194,7 +1296,12 @@ containing a value of this type.
          an action bar/action mode. This will be used to determine how many
          showAsAction="ifRoom" items can fit. "always" items can override this. 
          */
+<<<<<<< HEAD
         public static final int abc_max_action_buttons=0x7f090000;
+=======
+        public static final int abc_max_action_buttons=0x7f080000;
+        public static final int google_play_services_version=0x7f080001;
+>>>>>>> 66e1afd4016820dd65585e219b2aa5ea2feb7de7
     }
     public static final class layout {
         public static final int abc_action_bar_decor=0x7f030000;
@@ -1223,6 +1330,7 @@ containing a value of this type.
         public static final int abc_simple_decor=0x7f030017;
         public static final int activity_book_ride=0x7f030018;
         public static final int activity_checkin_screen=0x7f030019;
+<<<<<<< HEAD
         public static final int activity_end_of_ride_screen=0x7f03001a;
         public static final int activity_main=0x7f03001b;
         public static final int activity_main_menu=0x7f03001c;
@@ -1232,6 +1340,18 @@ containing a value of this type.
         public static final int activity_registration_successful=0x7f030020;
         public static final int activity_request_ride=0x7f030021;
         public static final int support_simple_spinner_dropdown_item=0x7f030022;
+=======
+        public static final int activity_email_sent_notification=0x7f03001a;
+        public static final int activity_end_of_ride_screen=0x7f03001b;
+        public static final int activity_main=0x7f03001c;
+        public static final int activity_main_menu=0x7f03001d;
+        public static final int activity_offer_taxi=0x7f03001e;
+        public static final int activity_rating_form=0x7f03001f;
+        public static final int activity_register_screen=0x7f030020;
+        public static final int activity_reset_password_screen=0x7f030021;
+        public static final int activity_ride_in_progress_screen=0x7f030022;
+        public static final int support_simple_spinner_dropdown_item=0x7f030023;
+>>>>>>> 66e1afd4016820dd65585e219b2aa5ea2feb7de7
     }
     public static final class menu {
         public static final int login=0x7f0c0000;
@@ -1280,11 +1400,19 @@ containing a value of this type.
         public static final int abc_shareactionprovider_share_with_application=0x7f0a000b;
         public static final int action_settings=0x7f0a0010;
         public static final int app_name=0x7f0a000d;
+<<<<<<< HEAD
         public static final int backtologinbutton=0x7f0a002d;
         public static final int checkin=0x7f0a001e;
         public static final int confirmpassword=0x7f0a0022;
         public static final int contratulations=0x7f0a002b;
+=======
+        public static final int bookRide=0x7f0a0032;
+        public static final int checkin=0x7f0a001e;
+        public static final int confirmpassword=0x7f0a0022;
+        public static final int done=0x7f0a0030;
+>>>>>>> 66e1afd4016820dd65585e219b2aa5ea2feb7de7
         public static final int email=0x7f0a0021;
+        public static final int email_sent_notification_success=0x7f0a002f;
         public static final int female=0x7f0a0024;
         public static final int forgotpassword=0x7f0a0014;
         public static final int from=0x7f0a002e;
@@ -1295,23 +1423,37 @@ containing a value of this type.
         public static final int logout=0x7f0a001d;
         public static final int male=0x7f0a0023;
         public static final int name=0x7f0a0020;
+        public static final int offerTaxi=0x7f0a0033;
         public static final int offertaxi=0x7f0a0019;
         public static final int password=0x7f0a0017;
         public static final int register=0x7f0a0013;
         public static final int rememberme=0x7f0a0015;
         public static final int requesttaxi=0x7f0a001a;
+<<<<<<< HEAD
         public static final int resigtrationsuccmsg=0x7f0a002c;
         public static final int scanQRCode=0x7f0a0028;
         public static final int search=0x7f0a0031;
+=======
+        public static final int reset_password_instruction_text_view=0x7f0a002c;
+        public static final int scanQRCode=0x7f0a0028;
+        public static final int scan_instruction_text_view=0x7f0a002b;
+        public static final int submit=0x7f0a002d;
+>>>>>>> 66e1afd4016820dd65585e219b2aa5ea2feb7de7
         public static final int title_activity_book_ride=0x7f0a0025;
         public static final int title_activity_checkin_screen=0x7f0a0027;
+        public static final int title_activity_email_sent_notification_screen=0x7f0a0031;
         public static final int title_activity_end_of_ride_screen=0x7f0a002a;
         public static final int title_activity_login=0x7f0a000f;
         public static final int title_activity_main_menu=0x7f0a0018;
         public static final int title_activity_offer_taxi=0x7f0a0026;
         public static final int title_activity_rating_form=0x7f0a0029;
         public static final int title_activity_register_screen=0x7f0a001f;
+<<<<<<< HEAD
         public static final int to=0x7f0a002f;
+=======
+        public static final int title_activity_reset_password_screen=0x7f0a002e;
+        public static final int title_activity_ride_in_progress_screen=0x7f0a0034;
+>>>>>>> 66e1afd4016820dd65585e219b2aa5ea2feb7de7
         public static final int username=0x7f0a0016;
         public static final int viewprofile=0x7f0a001b;
         public static final int viewrides=0x7f0a001c;

@@ -10,7 +10,7 @@ import android.widget.Button;
 
 public class CheckinScreen extends Activity {
 
-	private static String qrcode; // The string that should save qr code value
+	private String qrcode; // The string that should save qr code value
 
 	//add intent to call on zxing application: BarcodeScanner
 	public void checkinScreen(View view){
@@ -25,6 +25,7 @@ public class CheckinScreen extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_checkin_screen);
+		
 	}
 
 	//getter for qrcode
