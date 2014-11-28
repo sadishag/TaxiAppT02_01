@@ -139,3 +139,16 @@ proguard/
 
 # Log Files
 *.log
+*.cache
+
+*.cache
+
+*.cache
+
+TaxiAppT02_01/bin/resources.ap_
+
+TaxiAppT02_01/bin/TaxiAppT02_01.apk
+
+TaxiAppT02_01/gen/com/taxiapp/taxiappt02_01/R.java
+
+TaxiAppT02_01/bin/jarlist.cache
