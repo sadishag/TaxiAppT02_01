@@ -27,6 +27,8 @@ public class SigninActivity  extends AsyncTask<String,Void,String>{
 	
 	private static final String TAG = "AsyncTask";
 	
+	MainActivity mainLogin = new MainActivity();
+	
 	private boolean loginAccess;
 
 	private TextView statusField;
@@ -108,7 +110,7 @@ public class SigninActivity  extends AsyncTask<String,Void,String>{
 		progress.dismiss();
 		if(loginAccess == true) {
 			statusField.setText("Access Granted");
-			
+			mainLogin.proceedToMainMenu();
 		}
 		else {
 			statusField.setText("Login Failed");

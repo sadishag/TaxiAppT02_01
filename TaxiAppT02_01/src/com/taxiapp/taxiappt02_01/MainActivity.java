@@ -34,8 +34,12 @@ public class MainActivity extends Activity {
 		passwordField = (EditText)findViewById(R.id.password);
 		status = (TextView)findViewById(R.id.loginStatus);
 		
+	}
+	
+	public void proceedToMainMenu(){
 		
-
+		Intent loginIntent = new Intent(this, MainMenu.class);
+		startActivity(loginIntent);
 	}
 	
 	
