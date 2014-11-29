@@ -59,6 +59,11 @@
         <activity
             android:name=".OfferTaxi"
             android:label="@string/title_activity_offer_taxi" >
+            <intent-filter>
+                <action android:name="android.intent.action.OFFERTAXI" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
         </activity>
         <activity
             android:name=".CheckinScreen"
@@ -76,7 +81,6 @@
             android:name=".RideInProgressScreen"
             android:label="@string/title_activity_ride_in_progress_screen" >
         </activity>
-
         <activity
             android:name=".ResetPasswordScreen"
             android:label="@string/title_activity_reset_password_screen" >
@@ -91,10 +95,9 @@
             android:value="AIzaSyAEhth972ADVOlYGaRINeNgEEIQEYuaBcU" />
 
         <activity
-            android:name=".Calendar"
-            android:label="@string/title_activity_calendar" >
+            android:name=".CalendarScreen"
+            android:label="@string/title_activity_calendar_screen" >
         </activity>
-
     </application>
 
 </manifest>
