@@ -8,6 +8,8 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.os.Handler;
+import android.os.Message;
 import android.util.Log;
 import android.view.KeyEvent;
 import android.view.View;
@@ -36,11 +38,7 @@ public class MainActivity extends Activity {
 		
 	}
 	
-	public void proceedToMainMenu(){
-		
-		Intent loginIntent = new Intent(this, MainMenu.class);
-		startActivity(loginIntent);
-	}
+	
 	
 	
 //    registerButton.setOnClickListener(new View.OnClickListener()
@@ -72,6 +70,11 @@ public class MainActivity extends Activity {
 		login = new SigninActivity(this,status,role,0);
 		login.execute(username,password);
 		
+	}
+	
+	public void loginProceed(){
+		Intent loginIntent = new Intent(this, MainMenu.class);
+		startActivity(loginIntent);
 	}
 	
 	public void pressRegister(View view) {

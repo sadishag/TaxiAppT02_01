@@ -22,4 +22,6 @@
 <fullyQualifiedTypeName name="com.taxiapp.taxiappt02_01.MainMenu"/>
 <fullyQualifiedTypeName name="android.widget.TextView.OnEditorActionListener"/>
 <fullyQualifiedTypeName name="android.os.AsyncTask.Status"/>
+<fullyQualifiedTypeName name="android.os.Handler"/>
+<fullyQualifiedTypeName name="android.os.Message"/>
 </qualifiedTypeNameHistroy>

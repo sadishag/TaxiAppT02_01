@@ -18,6 +18,8 @@ import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.Intent;
 import android.os.AsyncTask;
+import android.os.Handler;
+import android.os.Message;
 import android.util.Log;
 import android.widget.TextView;
 
@@ -37,6 +39,8 @@ public class SigninActivity  extends AsyncTask<String,Void,String>{
 	private int byGetOrPost = 0;
 	private StringBuffer sb = new StringBuffer("");
 	private String checkAccess;
+	
+	MainActivity loginMain = new MainActivity();
 
 	ProgressDialog progress; 
 //	= ProgressDialog.show(context, "Processing...", "We are checking your credentials");
@@ -44,7 +48,7 @@ public class SigninActivity  extends AsyncTask<String,Void,String>{
 	
 	//flag 0 means get and 1 means post.(By default it is get.)
 	public SigninActivity(Context context,TextView statusField, TextView roleField,int flag) {
-		progress = new ProgressDialog(context);
+		
 				
 		this.context = context;
 		this.statusField = statusField;
@@ -53,6 +57,7 @@ public class SigninActivity  extends AsyncTask<String,Void,String>{
 	}
 
 	protected void onPreExecute(){
+		progress = new ProgressDialog(context);
 		
 		progress.setCancelable(false);
 		progress.isIndeterminate();
@@ -107,17 +112,31 @@ public class SigninActivity  extends AsyncTask<String,Void,String>{
 	
 	@Override
 	protected void onPostExecute(String result){
-		progress.dismiss();
+		progress.cancel();
 		if(loginAccess == true) {
 			statusField.setText("Access Granted");
-			mainLogin.proceedToMainMenu();
+			myHandler.sendEmptyMessage(0);
 		}
 		else {
 			statusField.setText("Login Failed");
 		}
 	}
 	
-	
+	Handler myHandler = new Handler() {
+
+	    @Override
+	    public void handleMessage(Message msg) {
+	        switch (msg.what) {
+	        case 0:
+	            // calling to this function from other pleaces
+	            // The notice call method of doing things
+	        	loginMain.loginProceed();
+	            break;
+	        default:
+	            break;
+	        }
+	    }
+	};
 	
 	
 	public boolean getLoginAccess() {
