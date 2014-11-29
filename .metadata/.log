@@ -5292,3 +5292,870 @@ Caused by: org.eclipse.core.internal.resources.ResourceException: Resource is ou
 
 !ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 13:40:39.211
 !MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/.classpath in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 13:47:26.984
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/.classpath in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 14:08:45.908
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/.classpath in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 19:41:03.645
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/.classpath in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 19:42:46.094
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/.classpath in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 19:44:57.710
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/.classpath in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:47.458
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/AndroidManifest.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:47.472
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/color/common_signin_btn_text_dark.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:47.473
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/color/common_signin_btn_text_light.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:47.474
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/color/wallet_primary_text_holo_light.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:47.475
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/color/wallet_secondary_text_holo_dark.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:47.504
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/drawable/common_signin_btn_icon_dark.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:47.505
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/drawable/common_signin_btn_icon_light.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:47.506
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/drawable/common_signin_btn_text_dark.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:47.507
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/drawable/common_signin_btn_text_light.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:47.556
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values/admob_ads_attrs.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:47.557
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values/admob_iap_style.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:47.558
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values/admob_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:47.559
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values/common_colors.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:47.560
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:47.561
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values/maps_attrs.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:47.561
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values/version.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:47.562
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values/wallet_attrs.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:47.563
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values/wallet_colors.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:47.564
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values/wallet_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:47.565
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values/wallet_styles.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:47.566
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-af/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:47.567
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-am/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:47.568
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-ar/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:47.569
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-be/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:47.570
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-bg/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:47.571
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-bn-rBD/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:47.573
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-ca/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:47.574
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-cs/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:47.575
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-da/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:47.576
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-de/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:47.577
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-el/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:47.579
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-en-rGB/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:47.580
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-en-rIN/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:47.581
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-es/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:47.582
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-es/wallet_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:47.583
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-es-rUS/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:47.584
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-et-rEE/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:47.585
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-eu-rES/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:47.586
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-fa/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:47.587
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-fi/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:47.588
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-fr/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:47.590
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-fr-rCA/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:47.592
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-gl-rES/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:47.593
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-hi/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:47.594
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-hr/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:47.596
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-hu/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:47.618
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-hy-rAM/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:47.630
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-in/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:47.631
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-is-rIS/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:47.632
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-it/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:47.633
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-iw/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:47.635
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-ja/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:47.636
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-ka-rGE/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:47.638
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-kk-rKZ/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:47.639
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-km-rKH/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:47.641
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-kn-rIN/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:47.642
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-ko/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:47.644
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-ky-rKG/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:47.645
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-lo-rLA/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:47.646
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-lt/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:47.647
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-lv/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:47.648
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-mk-rMK/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:47.649
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-ml-rIN/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:47.651
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-mn-rMN/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:47.652
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-mr-rIN/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:47.653
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-ms-rMY/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:47.654
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-my-rMM/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:47.655
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-nb/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:47.656
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-ne-rNP/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:47.658
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-nl/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:47.659
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-pl/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:47.660
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-pt/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:47.661
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-pt-rBR/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:47.662
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-pt-rPT/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:47.663
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-ro/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:47.664
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-ru/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:47.665
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-si-rLK/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:47.666
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-sk/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:47.667
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-sl/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:47.668
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-sr/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:47.669
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-sv/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:47.670
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-sw/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:47.671
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-ta-rIN/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:47.672
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-te-rIN/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:47.674
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-th/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:47.675
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-tl/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:47.676
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-tr/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:47.677
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-uk/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:47.678
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-ur-rPK/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:47.680
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-uz-rUZ/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:47.681
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-vi/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:47.682
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-zh-rCN/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:47.683
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-zh-rHK/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:47.684
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-zh-rTW/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:47.685
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-zu/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:51.155
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/AndroidManifest.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:51.155
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/color/common_signin_btn_text_dark.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:51.156
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/color/common_signin_btn_text_light.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:51.156
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/color/wallet_primary_text_holo_light.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:51.157
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/color/wallet_secondary_text_holo_dark.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:51.158
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/drawable/common_signin_btn_icon_dark.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:51.158
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/drawable/common_signin_btn_icon_light.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:51.159
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/drawable/common_signin_btn_text_dark.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:51.159
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/drawable/common_signin_btn_text_light.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:51.160
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values/admob_ads_attrs.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:51.161
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values/admob_iap_style.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:51.161
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values/admob_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:51.162
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values/common_colors.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:51.162
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:51.163
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values/maps_attrs.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:51.163
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values/version.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:51.164
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values/wallet_attrs.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:51.164
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values/wallet_colors.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:51.165
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values/wallet_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:51.165
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values/wallet_styles.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:51.166
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-af/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:51.166
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-am/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:51.167
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-ar/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:51.168
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-be/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:51.169
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-bg/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:51.169
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-bn-rBD/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:51.170
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-ca/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:51.170
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-cs/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:51.171
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-da/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:51.172
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-de/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:51.172
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-el/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:51.173
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-en-rGB/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:51.173
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-en-rIN/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:51.174
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-es/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:51.175
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-es/wallet_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:51.175
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-es-rUS/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:51.176
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-et-rEE/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:51.176
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-eu-rES/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:51.177
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-fa/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:51.178
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-fi/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:51.178
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-fr/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:51.179
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-fr-rCA/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:51.180
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-gl-rES/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:51.180
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-hi/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:51.181
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-hr/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:51.182
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-hu/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:51.183
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-hy-rAM/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:51.183
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-in/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:51.184
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-is-rIS/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:51.185
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-it/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:51.185
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-iw/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:51.186
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-ja/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:51.186
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-ka-rGE/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:51.187
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-kk-rKZ/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:51.187
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-km-rKH/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:51.188
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-kn-rIN/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:51.189
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-ko/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:51.189
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-ky-rKG/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:51.190
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-lo-rLA/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:51.190
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-lt/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:51.191
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-lv/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:51.191
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-mk-rMK/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:51.192
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-ml-rIN/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:51.192
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-mn-rMN/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:51.193
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-mr-rIN/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:51.194
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-ms-rMY/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:51.194
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-my-rMM/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:51.195
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-nb/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:51.196
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-ne-rNP/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:51.197
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-nl/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:51.198
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-pl/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:51.198
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-pt/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:51.199
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-pt-rBR/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:51.200
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-pt-rPT/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:51.201
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-ro/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:51.201
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-ru/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:51.202
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-si-rLK/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:51.202
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-sk/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:51.203
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-sl/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:51.204
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-sr/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:51.204
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-sv/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:51.205
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-sw/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:51.205
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-ta-rIN/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:51.206
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-te-rIN/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:51.207
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-th/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:51.207
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-tl/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:51.208
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-tr/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:51.208
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-uk/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:51.209
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-ur-rPK/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:51.210
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-uz-rUZ/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:51.210
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-vi/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:51.211
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-zh-rCN/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:51.211
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-zh-rHK/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:51.212
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-zh-rTW/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 20:18:51.213
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/res/values-zu/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 21:18:46.650
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/.classpath in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 21:21:32.911
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/.classpath in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 21:55:00.534
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/.classpath in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 22:03:29.001
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/.classpath in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 22:05:00.429
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/.classpath in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 22:07:14.720
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/.classpath in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 22:07:24.264
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/.classpath in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 22:13:12.150
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/.classpath in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 22:13:15.881
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/.classpath in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 22:24:15.321
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/.classpath in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-28 22:36:25.281
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/.classpath in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-29 00:03:41.701
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/.classpath in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-29 00:04:03.243
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/.classpath in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-29 00:21:27.081
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/.classpath in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-29 00:24:56.407
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/.classpath in workspace
+
+!ENTRY org.eclipse.core.resources 4 4 2014-11-29 02:03:27.701
+!MESSAGE Exception occurred while saving project preferences: /Db_connect_blog/.settings/org.eclipse.jdt.core.prefs.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: A resource already exists on disk '/Users/sadishagalappatti/Downloads/Db_connect_blog/Db_connect_blog/.settings'.
+	at org.eclipse.core.internal.resources.Folder.assertCreateRequirements(Folder.java:47)
+	at org.eclipse.core.internal.resources.Folder.create(Folder.java:95)
+	at org.eclipse.core.internal.resources.ProjectPreferences$1.run(ProjectPreferences.java:566)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.core.internal.resources.ProjectPreferences.save(ProjectPreferences.java:590)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalFlush(EclipsePreferences.java:465)
+	at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:350)
+	at org.eclipse.jdt.internal.core.JavaProject.setOption(JavaProject.java:2953)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.checkAndFixCompilerCompliance(ProjectHelper.java:513)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.fixProjectClasspathEntries(ProjectHelper.java:422)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.fixProject(ProjectHelper.java:296)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createEclipseProject(NewProjectCreator.java:837)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createProjectAsync(NewProjectCreator.java:660)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.access$0(NewProjectCreator.java:590)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator$3.execute(NewProjectCreator.java:400)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation$1.run(WorkspaceModifyOperation.java:106)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:118)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SUBENTRY 1 org.eclipse.core.resources 4 272 2014-11-29 02:03:27.708
+!MESSAGE A resource already exists on disk '/Users/sadishagalappatti/Downloads/Db_connect_blog/Db_connect_blog/.settings'.
+
+!ENTRY org.eclipse.core.resources 4 4 2014-11-29 02:03:27.709
+!MESSAGE Exception occurred while saving project preferences: /Db_connect_blog/.settings/org.eclipse.jdt.core.prefs.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: A resource already exists on disk '/Users/sadishagalappatti/Downloads/Db_connect_blog/Db_connect_blog/.settings'.
+	at org.eclipse.core.internal.resources.Folder.assertCreateRequirements(Folder.java:47)
+	at org.eclipse.core.internal.resources.Folder.create(Folder.java:95)
+	at org.eclipse.core.internal.resources.ProjectPreferences$1.run(ProjectPreferences.java:566)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.core.internal.resources.ProjectPreferences.save(ProjectPreferences.java:590)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalFlush(EclipsePreferences.java:465)
+	at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:350)
+	at org.eclipse.jdt.internal.core.JavaProject.setOption(JavaProject.java:2953)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.checkAndFixCompilerCompliance(ProjectHelper.java:515)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.fixProjectClasspathEntries(ProjectHelper.java:422)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.fixProject(ProjectHelper.java:296)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createEclipseProject(NewProjectCreator.java:837)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createProjectAsync(NewProjectCreator.java:660)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.access$0(NewProjectCreator.java:590)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator$3.execute(NewProjectCreator.java:400)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation$1.run(WorkspaceModifyOperation.java:106)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:118)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SUBENTRY 1 org.eclipse.core.resources 4 272 2014-11-29 02:03:27.709
+!MESSAGE A resource already exists on disk '/Users/sadishagalappatti/Downloads/Db_connect_blog/Db_connect_blog/.settings'.
+
+!ENTRY org.eclipse.core.resources 4 4 2014-11-29 02:03:27.710
+!MESSAGE Exception occurred while saving project preferences: /Db_connect_blog/.settings/org.eclipse.jdt.core.prefs.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: A resource already exists on disk '/Users/sadishagalappatti/Downloads/Db_connect_blog/Db_connect_blog/.settings'.
+	at org.eclipse.core.internal.resources.Folder.assertCreateRequirements(Folder.java:47)
+	at org.eclipse.core.internal.resources.Folder.create(Folder.java:95)
+	at org.eclipse.core.internal.resources.ProjectPreferences$1.run(ProjectPreferences.java:566)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.core.internal.resources.ProjectPreferences.save(ProjectPreferences.java:590)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalFlush(EclipsePreferences.java:465)
+	at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:350)
+	at org.eclipse.jdt.internal.core.JavaProject.setOption(JavaProject.java:2953)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.checkAndFixCompilerCompliance(ProjectHelper.java:517)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.fixProjectClasspathEntries(ProjectHelper.java:422)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.fixProject(ProjectHelper.java:296)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createEclipseProject(NewProjectCreator.java:837)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createProjectAsync(NewProjectCreator.java:660)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.access$0(NewProjectCreator.java:590)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator$3.execute(NewProjectCreator.java:400)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation$1.run(WorkspaceModifyOperation.java:106)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:118)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SUBENTRY 1 org.eclipse.core.resources 4 272 2014-11-29 02:03:27.710
+!MESSAGE A resource already exists on disk '/Users/sadishagalappatti/Downloads/Db_connect_blog/Db_connect_blog/.settings'.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-29 02:49:03.048
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/.classpath in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-29 02:53:05.849
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/.classpath in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-29 02:53:37.300
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/.classpath in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-29 03:00:38.545
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/.classpath in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-29 03:13:25.191
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/.classpath in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-29 03:14:46.089
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/.classpath in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-29 03:16:24.261
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/.classpath in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-29 03:18:17.789
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/.classpath in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-29 03:20:09.709
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/.classpath in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-29 03:20:38.152
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/.classpath in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-29 03:20:59.168
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/.classpath in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-29 03:22:22.379
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/.classpath in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-29 03:22:27.305
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/.classpath in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-29 03:22:38.926
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/.classpath in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-29 03:24:55.412
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/.classpath in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-29 03:27:49.999
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/.classpath in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-29 03:40:57.360
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/.classpath in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-29 03:41:18.109
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/.classpath in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-29 03:42:12.153
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/.classpath in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-29 03:43:10.819
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/.classpath in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-29 03:45:23.712
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/.classpath in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-29 03:51:38.818
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/.classpath in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-29 03:54:10.780
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/.classpath in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-29 03:56:06.338
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/.classpath in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-29 03:56:47.431
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/.classpath in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-29 03:56:52.597
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/.classpath in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-29 03:58:16.885
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/.classpath in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-29 04:07:24.539
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/.classpath in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-29 04:08:10.730
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/.classpath in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-29 04:11:05.882
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/.classpath in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-29 04:11:56.015
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/.classpath in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-29 04:13:35.450
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/.classpath in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-29 04:14:35.799
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/.classpath in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-29 04:17:15.690
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/.classpath in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-29 04:20:27.852
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/.classpath in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-29 04:25:50.475
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/.classpath in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-29 04:28:02.800
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/.classpath in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-29 04:29:08.512
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/.classpath in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-29 04:29:16.639
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/.classpath in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-29 04:35:08.230
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/.classpath in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-29 04:36:44.936
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/.classpath in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-29 04:37:21.670
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/.classpath in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-29 04:37:56.880
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/.classpath in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-29 04:39:20.516
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/.classpath in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-29 04:39:25.623
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/.classpath in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-29 04:40:33.320
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/.classpath in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-29 04:56:47.630
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/.classpath in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-29 05:02:17.237
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/.classpath in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-29 05:06:52.205
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/.classpath in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-29 05:16:33.847
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/.classpath in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-29 05:19:12.545
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/.classpath in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-29 05:20:51.486
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/.classpath in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-29 05:25:26.662
+!MESSAGE Can't find file /Users/sadishagalappatti/Documents/github/TaxiAppT02_01/google-play-services_lib/.classpath in workspace

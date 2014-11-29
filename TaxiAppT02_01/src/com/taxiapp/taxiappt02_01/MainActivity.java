@@ -9,10 +9,12 @@ import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.KeyEvent;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.TextView.OnEditorActionListener;
 
 public class MainActivity extends Activity {
 
@@ -20,8 +22,8 @@ public class MainActivity extends Activity {
 	 private EditText passwordField;
 	 private TextView status;
 	 private TextView role;
-	 private TextView method;
 	
+	 SigninActivity login;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -30,6 +32,8 @@ public class MainActivity extends Activity {
 		
 		usernameField = (EditText)findViewById(R.id.username);
 		passwordField = (EditText)findViewById(R.id.password);
+		status = (TextView)findViewById(R.id.loginStatus);
+		
 		
 
 	}
@@ -60,19 +64,9 @@ public class MainActivity extends Activity {
 		
 		String username = usernameField.getText().toString();
 		String password = passwordField.getText().toString();
-		method.setText("Get Method");
-		SigninActivity login = new SigninActivity(this,status,role,0);
-		Log.d("LoginResult", login.execute(username,password).toString());
+		login = new SigninActivity(this,status,role,0);
+		login.execute(username,password);
 		
-		if(login.execute(username,password).toString() != null) {
-			
-			Intent loginIntent = new Intent(this, MainMenu.class);
-			startActivity(loginIntent);
-		} 
-		else {
-			//do nothing...
-		}
-
 	}
 	
 	public void pressRegister(View view) {
@@ -89,7 +83,7 @@ public class MainActivity extends Activity {
 		startActivity(forgotPasswordIntent);
 	}
 	
-	public void goToRideInProgressScren(View view) {
+	public void goToRideInProgressScreen(View view) {
 	    Intent rideInProgressIntent = new Intent(this, RideInProgressScreen.class);
 	    startActivity(rideInProgressIntent);
 	}

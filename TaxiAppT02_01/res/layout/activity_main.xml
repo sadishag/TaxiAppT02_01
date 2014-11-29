@@ -83,6 +83,15 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="26dp"
         android:text="RideInProgressScreen Test"
-        android:onClick="goToRideInProgressScren" />
+        android:onClick="goToRideInProgressScreen" />
+
+    <TextView
+        android:id="@+id/loginStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/testTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="Login Status" />
 
 </RelativeLayout>
