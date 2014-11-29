@@ -43,7 +43,7 @@
     <string name="bookRide">Book Future Ride</string>
     <string name="offerTaxi">Offer Current Taxi</string>
     <string name="title_activity_ride_in_progress_screen">RideInProgressScreen</string>
-    <string name="title_activity_calendar">Calendar</string>
+    <string name="title_activity_calendar_screen">CalendarScreen</string>
     <string name="sunday">Sunday</string>
     <string name="monday">Monday</string>
     <string name="tuesday">Tuesday</string>

@@ -152,3 +152,9 @@ TaxiAppT02_01/bin/TaxiAppT02_01.apk
 TaxiAppT02_01/gen/com/taxiapp/taxiappt02_01/R.java
 
 TaxiAppT02_01/bin/jarlist.cache
+
+*.dex
+
+TaxiAppT02_01/bin/classes.dex
+
+TaxiAppT02_01/bin/R.txt

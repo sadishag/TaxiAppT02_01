@@ -5,14 +5,14 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
-public class Calendar extends Activity {
+public class CalendarScreen extends Activity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_calendar);
+		setContentView(R.layout.activity_calendar_screen);
 		
-        BookRide mv = new BookRide(this);
+        CalendarView mv = new CalendarView(this);
         setContentView(mv);
 	}
 }
