@@ -57,7 +57,8 @@ public class MainActivity extends Activity {
 //	}
 
 	public void listenToLogin(View view) {
-		
+//	    Intent mainMenuIntent = new Intent(this, MainMenu.class);
+//	    startActivity(mainMenuIntent);
 		String username = usernameField.getText().toString();
 		String password = passwordField.getText().toString();
 		method.setText("Get Method");
