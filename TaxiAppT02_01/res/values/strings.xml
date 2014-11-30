@@ -20,7 +20,6 @@
     <string name="logout">Log Out</string>
     <string name="checkin">Check In</string>
     <string name="title_activity_register_screen">Registration</string>
-    <string name="name">Name</string>
     <string name="email">Email</string>
     <string name="confirmpassword">Confirm Password</string>
     <string name="male">Male</string>
@@ -69,6 +68,8 @@
     <string name="from">From</string>
     <string name="to">To</string>
     <string name="search">Search</string>
+    <string name="firstname">First Name</string>
+    <string name="lastname">Last Name</string>
     
 
 </resources>

@@ -2,13 +2,9 @@ package com.taxiapp.taxiappt02_01;
 
 
 
-import java.util.concurrent.ExecutionException;
-
 import android.app.Activity;
 import android.content.Intent;
-import android.os.AsyncTask;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -19,11 +15,11 @@ public class MainActivity extends Activity {
     private static final String TAG = "MainActivity";
 
     private EditText usernameField;
-	 private EditText passwordField;
-	 private TextView status;
-	 private TextView role;
+	private EditText passwordField;
+	private TextView status;
+	private TextView role;
 	
-	 SigninActivity login;
+	SigninActivity login;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -61,30 +57,11 @@ public class MainActivity extends Activity {
 //	}
 
 	public void listenToLogin(View view) {
-//	    Intent mainMenuIntent = new Intent(this, MainMenu.class);
-//	    startActivity(mainMenuIntent);
+
 		String username = usernameField.getText().toString();
 		String password = passwordField.getText().toString();
 		login = new SigninActivity(this,status,role);
 		login.execute(username,password);
-//		try {
-//            login.execute(username,password).get();
-//        } catch (InterruptedException e) {
-//            // TODO Auto-generated catch block
-//            e.printStackTrace();
-//        } catch (ExecutionException e) {
-//            // TODO Auto-generated catch block
-//            e.printStackTrace();
-//        }
-//
-//		boolean loginAccess = login.getLoginAccess();
-//		if (loginAccess == true) {
-//			Intent mainMenuIntent = new Intent(this, MainMenu.class);
-//		    startActivity(mainMenuIntent);
-//		}
-//		else {
-//		    //loginErrorScreen goes here
-//		}
 		
 	}
 	
