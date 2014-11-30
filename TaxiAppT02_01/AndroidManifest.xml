@@ -92,7 +92,7 @@
 
         <meta-data
             android:name="com.google.android.maps.v2.API_KEY"
-            android:value="AIzaSyAEhth972ADVOlYGaRINeNgEEIQEYuaBcU" />
+            android:value="AIzaSyDPg5MHThiU1v4B9mlt9hJ_qgI1fJBmWv0" />
 
         <activity
             android:name=".CalendarScreen"
