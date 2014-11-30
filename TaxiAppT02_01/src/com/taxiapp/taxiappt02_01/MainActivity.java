@@ -2,25 +2,23 @@ package com.taxiapp.taxiappt02_01;
 
 
 
-import com.taxiapp.dbutility.SigninActivity;
+import java.util.concurrent.ExecutionException;
 
 import android.app.Activity;
 import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
-import android.os.Handler;
-import android.os.Message;
 import android.util.Log;
-import android.view.KeyEvent;
 import android.view.View;
-import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
-import android.widget.TextView.OnEditorActionListener;
+
+import com.taxiapp.dbutility.SigninActivity;
 
 public class MainActivity extends Activity {
+    private static final String TAG = "MainActivity";
 
-	 private EditText usernameField;
+    private EditText usernameField;
 	 private EditText passwordField;
 	 private TextView status;
 	 private TextView role;
@@ -68,7 +66,25 @@ public class MainActivity extends Activity {
 		String username = usernameField.getText().toString();
 		String password = passwordField.getText().toString();
 		login = new SigninActivity(this,status,role,0);
-		login.execute(username,password);
+		
+		try {
+            login.execute(username,password).get();
+        } catch (InterruptedException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        } catch (ExecutionException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
+
+		boolean loginAccess = login.getLoginAccess();
+		if (loginAccess == true) {
+			Intent mainMenuIntent = new Intent(this, MainMenu.class);
+		    startActivity(mainMenuIntent);
+		}
+		else {
+		    //loginErrorScreen goes here
+		}
 		
 	}
 	

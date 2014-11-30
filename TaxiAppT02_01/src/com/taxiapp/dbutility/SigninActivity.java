@@ -57,11 +57,11 @@ public class SigninActivity  extends AsyncTask<String,Void,String>{
 	}
 
 	protected void onPreExecute(){
-		progress = new ProgressDialog(context);
-		
-		progress.setCancelable(false);
-		progress.isIndeterminate();
-		progress.show();
+//		progress = new ProgressDialog(context);
+//		
+//		progress.setCancelable(false);
+//		progress.isIndeterminate();
+//		progress.show();
 
 	}
 	@Override
@@ -104,7 +104,8 @@ public class SigninActivity  extends AsyncTask<String,Void,String>{
 
 			in.close();
 
-			return sb.toString();
+//			return sb.toString();
+			return "done";
 		}catch(Exception e){
 			return new String("Exception: " + e.getMessage());
 		}
@@ -112,10 +113,10 @@ public class SigninActivity  extends AsyncTask<String,Void,String>{
 	
 	@Override
 	protected void onPostExecute(String result){
-		progress.cancel();
+//		progress.cancel();
 		if(loginAccess == true) {
 			statusField.setText("Access Granted");
-			myHandler.sendEmptyMessage(0);
+//			myHandler.sendEmptyMessage(0);
 		}
 		else {
 			statusField.setText("Login Failed");
