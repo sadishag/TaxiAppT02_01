@@ -65,26 +65,26 @@ public class MainActivity extends Activity {
 //	    startActivity(mainMenuIntent);
 		String username = usernameField.getText().toString();
 		String password = passwordField.getText().toString();
-		login = new SigninActivity(this,status,role,0);
-		
-		try {
-            login.execute(username,password).get();
-        } catch (InterruptedException e) {
-            // TODO Auto-generated catch block
-            e.printStackTrace();
-        } catch (ExecutionException e) {
-            // TODO Auto-generated catch block
-            e.printStackTrace();
-        }
-
-		boolean loginAccess = login.getLoginAccess();
-		if (loginAccess == true) {
-			Intent mainMenuIntent = new Intent(this, MainMenu.class);
-		    startActivity(mainMenuIntent);
-		}
-		else {
-		    //loginErrorScreen goes here
-		}
+		login = new SigninActivity(this,status,role);
+		login.execute(username,password);
+//		try {
+//            login.execute(username,password).get();
+//        } catch (InterruptedException e) {
+//            // TODO Auto-generated catch block
+//            e.printStackTrace();
+//        } catch (ExecutionException e) {
+//            // TODO Auto-generated catch block
+//            e.printStackTrace();
+//        }
+//
+//		boolean loginAccess = login.getLoginAccess();
+//		if (loginAccess == true) {
+//			Intent mainMenuIntent = new Intent(this, MainMenu.class);
+//		    startActivity(mainMenuIntent);
+//		}
+//		else {
+//		    //loginErrorScreen goes here
+//		}
 		
 	}
 	

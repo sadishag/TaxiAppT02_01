@@ -47,13 +47,14 @@ public class SigninActivity  extends AsyncTask<String,Void,String>{
 	
 	
 	//flag 0 means get and 1 means post.(By default it is get.)
-	public SigninActivity(Context context,TextView statusField, TextView roleField,int flag) {
+	public SigninActivity(MainActivity mainActivity, TextView statusField, TextView roleField) {
 		
 				
-		this.context = context;
+//		this.context = context;
 		this.statusField = statusField;
-		this.roleField = roleField;
-		byGetOrPost = flag;
+		this.roleField = roleField; 
+		this.loginMain = mainActivity;
+//		byGetOrPost = flag;
 	}
 
 	protected void onPreExecute(){
@@ -116,6 +117,7 @@ public class SigninActivity  extends AsyncTask<String,Void,String>{
 //		progress.cancel();
 		if(loginAccess == true) {
 			statusField.setText("Access Granted");
+			loginMain.loginProceed(); 
 //			myHandler.sendEmptyMessage(0);
 		}
 		else {
