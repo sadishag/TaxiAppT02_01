@@ -35,8 +35,6 @@ public class SigninActivity  extends AsyncTask<String,Void,String>{
 
 	private TextView statusField;
 	private TextView roleField;
-	private Context context;
-	private int byGetOrPost = 0;
 	private StringBuffer sb = new StringBuffer("");
 	private String checkAccess;
 	
