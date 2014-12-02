@@ -38,7 +38,7 @@ public class SigninActivity  extends AsyncTask<String,Void,String>{
 	private StringBuffer sb = new StringBuffer("");
 	private String checkAccess;
 	
-	MainActivity loginMain = new MainActivity();
+	MainActivity loginMain;
 
 	ProgressDialog progress; 
 //	= ProgressDialog.show(context, "Processing...", "We are checking your credentials");
@@ -47,7 +47,6 @@ public class SigninActivity  extends AsyncTask<String,Void,String>{
 	//flag 0 means get and 1 means post.(By default it is get.)
 	public SigninActivity(MainActivity mainActivity, TextView statusField, TextView roleField) {
 		
-				
 //		this.context = context;
 		this.statusField = statusField;
 		this.roleField = roleField; 
@@ -103,8 +102,8 @@ public class SigninActivity  extends AsyncTask<String,Void,String>{
 
 			in.close();
 
-			return sb.toString();
-//			return "done";
+//			return sb.toString();
+			return "done";
 		}catch(Exception e){
 			return new String("Exception: " + e.getMessage());
 		}
@@ -115,7 +114,7 @@ public class SigninActivity  extends AsyncTask<String,Void,String>{
 //		progress.cancel();
 		if(loginAccess == true) {
 			statusField.setText("Access Granted");
-			loginMain.loginProceed(); 
+			loginMain.loginProceed();
 //			myHandler.sendEmptyMessage(0);
 		}
 		else {

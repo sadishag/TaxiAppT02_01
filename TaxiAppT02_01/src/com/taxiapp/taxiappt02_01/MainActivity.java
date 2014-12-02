@@ -19,7 +19,7 @@ public class MainActivity extends Activity {
 	private TextView status;
 	private TextView role;
 	
-	SigninActivity login;
+	private SigninActivity login;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {

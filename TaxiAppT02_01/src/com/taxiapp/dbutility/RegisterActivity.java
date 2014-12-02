@@ -106,7 +106,7 @@ public class RegisterActivity  extends AsyncTask<String,Void,String>{
 //      progress.cancel();
         if(loginAccess == true) {
             statusField.setText("Access Granted");
-            loginMain.loginProceed(); 
+//            loginMain.loginProceed(); 
 //          myHandler.sendEmptyMessage(0);
         }
         else {
@@ -122,7 +122,7 @@ public class RegisterActivity  extends AsyncTask<String,Void,String>{
             case 0:
                 // calling to this function from other pleaces
                 // The notice call method of doing things
-                loginMain.loginProceed();
+//                loginMain.loginProceed();
                 break;
             default:
                 break;
