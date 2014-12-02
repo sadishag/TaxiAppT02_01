@@ -37,17 +37,12 @@
     <string name="email_sent_notification_success">An email has been sent!</string>
     <string name="done">Done</string>
     <string name="title_activity_email_sent_notification_screen">EmailSent</string>
-<<<<<<< HEAD
     <string name="input_request_taxiride_date">Date mm/dd/yyyy</string>
     <string name="input_request_taxiride_time">Time 24hrs hh/mm</string>
     <string name="number_of_riders"># of riders</string>
     
-    
     <color name="red">#ff00</color>
-=======
->>>>>>> origin/master
 
-    <color name="red">#ff00</color>
     <string name="bookRide">Book Future Ride</string>
     <string name="offerTaxi">Offer Current Taxi</string>
     <string name="title_activity_ride_in_progress_screen">RideInProgressScreen</string>
@@ -84,6 +79,7 @@
     <string name="destination">Destination</string>
     <string name="seatsAvailable">Seats Available</string>
     <string name="title_activity_offer_forms">Offer Form</string>
+    <string name="title_activity_request_ride">RequestTaxi</string>
     
 
 </resources>
