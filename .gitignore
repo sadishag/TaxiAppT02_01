@@ -156,5 +156,11 @@ TaxiAppT02_01/bin/jarlist.cache
 TaxiAppT02_01/bin/classes.dex
 
 TaxiAppT02_01/bin/R.txt
+<<<<<<< HEAD
 TaxiAppT02_01/AndroidManifest.xml
 TaxiAppT02_01/AndroidManifest.xml
+=======
+TaxiAppT02_01/bin/TaxiAppT02_01.apk
+TaxiAppT02_01/bin/classes.dex
+TaxiAppT02_01/bin/resources.ap_
+>>>>>>> origin/master

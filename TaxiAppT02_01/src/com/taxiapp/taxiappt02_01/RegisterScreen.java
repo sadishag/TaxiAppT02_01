@@ -3,13 +3,13 @@ package com.taxiapp.taxiappt02_01;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 import android.widget.EditText;
-import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.Button;
+
+import com.taxiapp.dbutility.RegisterActivity;
+import com.taxiapp.dbutility.SigninActivity;
 
 public class RegisterScreen extends Activity {
 	
@@ -20,7 +20,9 @@ public class RegisterScreen extends Activity {
 	private EditText email;
 	private EditText username;
 	private EditText password;
-	private String gender;
+	private RadioGroup gender;
+	
+	RegisterActivity register;
 	
 
 	
@@ -34,6 +36,8 @@ public class RegisterScreen extends Activity {
 		email = (EditText) findViewById(R.id.email);
 		username = (EditText) findViewById(R.id.username);
 		password = (EditText) findViewById(R.id.password);
+		gender = (RadioGroup) findViewById(R.id.gender);
+		
 		
 		register = (Button) findViewById(R.id.register);
 		
@@ -56,6 +60,15 @@ public class RegisterScreen extends Activity {
 		String emailField = email.getText().toString();
 		String usernameField = username.getText().toString();
 		String passwordField = password.getText().toString();
+		String genderField = "male";
+		
+		int selectedGenderID = gender.getCheckedRadioButtonId();
+		if (selectedGenderID == 2) {
+		    genderField = "female";
+		} 
+		
+		register = new RegisterActivity(this);
+//        register.execute(firstnameField,lastnameField,emailField,usernameField,passwordField,genderField);
 		
 	}
 	
