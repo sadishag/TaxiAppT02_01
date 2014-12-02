@@ -92,6 +92,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/gender"
         android:layout_centerHorizontal="true"
-        android:text="@string/register" />
+        android:text="@string/register"
+        android:onClick="listenToRegister" />
 
 </RelativeLayout>

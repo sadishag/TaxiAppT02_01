@@ -70,6 +70,11 @@
     <string name="search">Search</string>
     <string name="firstname">First Name</string>
     <string name="lastname">Last Name</string>
+    <string name="taxiID">Taxi ID</string>
+    <string name="origin">Origin</string>
+    <string name="destination">Destination</string>
+    <string name="seatsAvailable">Seats Available</string>
+    <string name="title_activity_offer_forms">Offer Form</string>
     
 
 </resources>

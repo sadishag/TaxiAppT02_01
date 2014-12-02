@@ -27,7 +27,7 @@ import android.widget.TextView;
 
 public class SigninActivity  extends AsyncTask<String,Void,String>{
 	
-	private static final String TAG = "AsyncTask";
+	private static final String TAG = "SigninActivity";
 	
 	MainActivity mainLogin = new MainActivity();
 	
