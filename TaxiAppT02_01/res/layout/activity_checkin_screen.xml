@@ -10,7 +10,8 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="116dp"
-        android:text="@string/scanQRCode" />
+        android:text="@string/scanQRCode"
+        android:onClick="openBarcodeScanner" />
 
     <TextView
         android:id="@+id/scanInstructionTextView"
