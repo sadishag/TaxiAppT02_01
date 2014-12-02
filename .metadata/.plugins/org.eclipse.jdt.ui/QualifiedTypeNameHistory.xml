@@ -28,4 +28,7 @@
 <fullyQualifiedTypeName name="android.widget.EditText"/>
 <fullyQualifiedTypeName name="android.widget.TextView"/>
 <fullyQualifiedTypeName name="com.taxiapp.taxiappt02_01.R.id"/>
+<fullyQualifiedTypeName name="java.io.UnsupportedEncodingException"/>
+<fullyQualifiedTypeName name="java.io.IOException"/>
+<fullyQualifiedTypeName name="com.taxiapp.encryptutility.SecurityController"/>
 </qualifiedTypeNameHistroy>
