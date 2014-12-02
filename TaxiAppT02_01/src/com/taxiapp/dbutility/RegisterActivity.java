@@ -29,12 +29,12 @@ public class RegisterActivity  extends AsyncTask<String,Void,String>{
     
     MainActivity mainLogin = new MainActivity();
     
-    private boolean loginAccess;
+    private boolean registrationAllow;
 
     private TextView statusField;
     private TextView roleField;
     private StringBuffer sb = new StringBuffer("");
-    private String checkAccess;
+    private String[] checkExist;
     
     RegisterScreen registration;
 
@@ -60,6 +60,9 @@ public class RegisterActivity  extends AsyncTask<String,Void,String>{
             String password = (String) arg0[4];
             String gender = (String) arg0[5];
             
+            checkExist[0] = username;
+            checkExist[1] = email;
+            
             //check register values
             String checklink = "http://taxishare.site40.net/registercheck.php?username="+username+"&email="+email;
 //            URL url = new URL(link);
@@ -77,18 +80,19 @@ public class RegisterActivity  extends AsyncTask<String,Void,String>{
                 break;
             }
             Log.d(TAG, "StringBuffer= " + sb.toString());
-            Log.d(TAG, "CheckAccess= " + checkAccess.toString());
+//            Log.d(TAG, "CheckAccess= " + checkAccess.toString());
             
             String[] dbValues = sb.toString().split(", ");
             
-            if(sb.toString().equals(checkAccess.toString())){
-                loginAccess = true;
-            }
-            else {
-                loginAccess = false;
+            if(dbValues[0].equals(checkExist[0]) || dbValues[1].equals(checkExist[1])){
+                registrationAllow = false;
+            } else {
+                registrationAllow = true;
             }
 
-            Log.d(TAG, "loginAccess= " + loginAccess);
+            
+            
+            Log.d(TAG, "loginAccess= " + registrationAllow);
 
             in.close();
 
