@@ -6,7 +6,7 @@
     android:orientation="vertical" >
 
 <EditText
-    android:id="@+id/editText1"
+    android:id="@+id/taxiIDEditText"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:layout_alignParentTop="true"
@@ -19,19 +19,19 @@
     android:id="@+id/editText2"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:layout_alignLeft="@+id/editText1"
+    android:layout_alignLeft="@+id/taxiIDEditText"
     android:layout_alignParentTop="true"
     android:layout_marginTop="39dp"
     android:ems="10"
     android:hint="@string/from" />
 
 <Button
-    android:id="@+id/button1"
+    android:id="@+id/submitButton"
     style="?android:attr/buttonStyleSmall"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:layout_alignParentBottom="true"
-    android:layout_alignRight="@+id/editText1"
+    android:layout_alignRight="@+id/taxiIDEditText"
     android:layout_marginBottom="38dp"
     android:text="@string/search" />
 
