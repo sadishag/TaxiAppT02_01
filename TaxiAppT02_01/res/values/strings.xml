@@ -20,7 +20,6 @@
     <string name="logout">Log Out</string>
     <string name="checkin">Check In</string>
     <string name="title_activity_register_screen">Registration</string>
-    <string name="name">Name</string>
     <string name="email">Email</string>
     <string name="confirmpassword">Confirm Password</string>
     <string name="male">Male</string>
@@ -31,13 +30,6 @@
     <string name="scanQRCode">Scan</string>
     <string name="title_activity_rating_form">RatingForm</string>
     <string name="title_activity_end_of_ride_screen">EndOfRideScreen</string>
-    <string name="contratulations">Congratulations!</string>
-	<string name="resigtrationsuccmsg">You have successfully registered!</string>
-	<string name="backtologinbutton">Done</string>
-	<string name="from">From</string>
-	<string name="to">To</string>
-	<string name="go">Go</string>
-	<string name="search">Search</string>
     <string name="scan_instruction_text_view">Please press scan and scan the Taxi QRcode in order to checkin to your ride.</string>
     <string name="reset_password_instruction_text_view">To reset your password, enter your email address and a temporary password will be sent to you.</string>
     <string name="submit">Submit</string>
@@ -45,15 +37,48 @@
     <string name="email_sent_notification_success">An email has been sent!</string>
     <string name="done">Done</string>
     <string name="title_activity_email_sent_notification_screen">EmailSent</string>
+<<<<<<< HEAD
     <string name="input_request_taxiride_date">Date mm/dd/yyyy</string>
     <string name="input_request_taxiride_time">Time 24hrs hh/mm</string>
     <string name="number_of_riders"># of riders</string>
     
     
     <color name="red">#ff00</color>
+=======
+>>>>>>> origin/master
 
+    <color name="red">#ff00</color>
     <string name="bookRide">Book Future Ride</string>
     <string name="offerTaxi">Offer Current Taxi</string>
     <string name="title_activity_ride_in_progress_screen">RideInProgressScreen</string>
+    <string name="title_activity_calendar_screen">CalendarScreen</string>
+    <string name="sunday">Sunday</string>
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="friday">Friday</string>
+    <string name="saturday">Saturday</string>
+    <string name="january">January</string>
+    <string name="february">February</string>
+    <string name="march">March</string>
+    <string name="april">April</string>
+    <string name="may">May</string>
+    <string name="june">June</string>
+    <string name="july">July</string>
+    <string name="august">August</string>
+    <string name="september">September</string>
+    <string name="october">October</string>
+    <string name="november">November</string>
+    <string name="december">December</string>
+    <string name="backtologinbutton">Login</string>
+    <string name="resigtrationsuccmsg">Registration Success</string>
+    <string name="contratulations">Contratulations!</string>
+    <string name="from">From</string>
+    <string name="to">To</string>
+    <string name="search">Search</string>
+    <string name="firstname">First Name</string>
+    <string name="lastname">Last Name</string>
+    
 
 </resources>

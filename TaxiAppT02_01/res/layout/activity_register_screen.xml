@@ -6,20 +6,31 @@
     tools:context="${relativePackage}.${activityClass}" >
 
     <EditText
-        android:id="@+id/name"
+        android:id="@+id/firstname"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="60dp"
         android:ems="10"
-        android:inputType="textPersonName"
-        android:hint="@string/name" />
+        android:hint="@string/firstname"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/lastname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/firstname"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:hint="@string/lastname"
+        android:inputType="textPersonName" />
 
     <EditText
         android:id="@+id/username"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/email"
+        android:layout_below="@+id/lastname"
         android:layout_centerHorizontal="true"
         android:ems="10"
         android:hint="@string/username" />
@@ -31,8 +42,8 @@
         android:layout_below="@+id/username"
         android:layout_centerHorizontal="true"
         android:ems="10"
-        android:inputType="textPassword"
-        android:hint="@string/password" />
+        android:hint="@string/password"
+        android:inputType="textPassword" />
 
     <EditText
         android:id="@+id/confirmpassword"
@@ -41,26 +52,25 @@
         android:layout_below="@+id/password"
         android:layout_centerHorizontal="true"
         android:ems="10"
-        android:inputType="textPassword"
-        android:hint="@string/confirmpassword" />
+        android:hint="@string/confirmpassword"
+        android:inputType="textPassword" />
 
     <EditText
         android:id="@+id/email"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/name"
+        android:layout_below="@+id/confirmpassword"
         android:layout_centerHorizontal="true"
         android:ems="10"
-        android:inputType="textEmailAddress"
-        android:hint="@string/email" />
+        android:hint="@string/email"
+        android:inputType="textEmailAddress" />
 
     <RadioGroup
         android:id="@+id/gender"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/confirmpassword"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="18dp" >
+        android:layout_below="@+id/email"
+        android:layout_centerHorizontal="true" >
 
         <RadioButton
             android:id="@+id/male"
@@ -74,7 +84,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/female" />
-
     </RadioGroup>
 
     <Button
@@ -83,7 +92,6 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/gender"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="15dp"
         android:text="@string/register" />
 
 </RelativeLayout>

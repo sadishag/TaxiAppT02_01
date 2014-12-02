@@ -1,5 +1,6 @@
 package com.taxiapp.taxiappt02_01;
 
+
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
@@ -32,7 +33,7 @@ public class OfferTaxi extends Activity {
 			
 			@Override
 			public void onClick(View v) {
-				Intent intent = new Intent(OfferTaxi.this, BookRide.class);
+				Intent intent = new Intent(OfferTaxi.this, CalendarScreen.class);
                 startActivity(intent);  				
 			}
 		});
