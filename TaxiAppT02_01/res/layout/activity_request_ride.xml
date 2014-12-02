@@ -6,16 +6,6 @@
     android:orientation="vertical" >
 
 <EditText
-    android:id="@+id/editText1"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_alignParentTop="true"
-    android:layout_centerHorizontal="true"
-    android:layout_marginTop="84dp"
-    android:ems="10"
-    android:hint="@string/to" />
-
-<EditText
     android:id="@+id/editText2"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
@@ -34,5 +24,44 @@
     android:layout_alignRight="@+id/editText1"
     android:layout_marginBottom="38dp"
     android:text="@string/search" />
+
+<EditText
+    android:id="@+id/editText3"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignLeft="@+id/editText1"
+    android:layout_below="@+id/editText1"
+    android:ems="10"
+    android:hint="@string/input_request_taxiride_date"
+    android:inputType="date" />
+
+<EditText
+    android:id="@+id/editText1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/editText2"
+    android:layout_centerHorizontal="true"
+    android:ems="10"
+    android:hint="@string/to" />
+
+<EditText
+    android:id="@+id/editText4"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignLeft="@+id/editText3"
+    android:layout_below="@+id/editText3"
+    android:ems="10"
+    android:hint="@string/input_request_taxiride_time"
+    android:inputType="time" />
+
+<EditText
+    android:id="@+id/editText5"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignLeft="@+id/editText4"
+    android:layout_below="@+id/editText4"
+    android:ems="10"
+    android:hint="@string/number_of_riders"
+    android:inputType="number" />
 
 </RelativeLayout>

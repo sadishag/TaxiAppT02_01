@@ -42,14 +42,14 @@ public class MainMenu extends Activity {
 		
 		//for requst taxi button
 		
-//		requst.setOnClickListener(new View.OnClickListener() {
-//			
-//			@Override
-//			public void onClick(View v) {
-//				Intent intent = new Intent(MainMenu.this, RequstTaxi.class);
-//                startActivity(intent);  				
-//			}
-//		});
+		requst.setOnClickListener(new View.OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				Intent intent = new Intent(MainMenu.this, RequestTaxi.class);
+                startActivity(intent);  				
+			}
+		});
 		
 		
 		//for view profile button

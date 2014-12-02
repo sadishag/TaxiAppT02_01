@@ -45,6 +45,9 @@
     <string name="email_sent_notification_success">An email has been sent!</string>
     <string name="done">Done</string>
     <string name="title_activity_email_sent_notification_screen">EmailSent</string>
+    <string name="input_request_taxiride_date">Date mm/dd/yyyy</string>
+    <string name="input_request_taxiride_time">Time 24hrs hh/mm</string>
+    <string name="number_of_riders"># of riders</string>
     
     
     <color name="red">#ff00</color>
