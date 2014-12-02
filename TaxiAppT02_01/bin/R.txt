@@ -364,17 +364,13 @@ int id checkin 0x7f05005f
 int id classic 0x7f050029
 int id collapseActionView 0x7f05000d
 int id confirmpassword 0x7f05006d
+int id date 0x7f050076
 int id default_activity_button 0x7f05003a
 int id destinationEditText 0x7f050067
 int id dialog 0x7f05000e
 int id disableHome 0x7f050008
 int id doneEmailSentButton 0x7f050051
 int id dropdown 0x7f05000f
-int id editText1 0x7f050076
-int id editText2 0x7f050074
-int id editText3 0x7f050075
-int id editText4 0x7f050077
-int id editText5 0x7f050078
 int id edit_query 0x7f050042
 int id email 0x7f05006e
 int id emailResetEditText 0x7f05007a
@@ -387,6 +383,7 @@ int id female 0x7f050071
 int id femaleRadio 0x7f050064
 int id firstname 0x7f05006b
 int id forgotpassword 0x7f050055
+int id from 0x7f050075
 int id gender 0x7f05006f
 int id grayscale 0x7f05002a
 int id holo_dark 0x7f05001d
@@ -415,6 +412,7 @@ int id monochrome 0x7f05002b
 int id never 0x7f050009
 int id none 0x7f050010
 int id normal 0x7f050000
+int id numberofriders 0x7f050078
 int id offerCurrent 0x7f050069
 int id offerText 0x7f050068
 int id offertaxishare 0x7f05005b
@@ -460,7 +458,9 @@ int id textView 0x7f05007d
 int id textView1 0x7f050065
 int id textView2 0x7f050073
 int id textView3 0x7f050072
+int id time 0x7f050077
 int id title 0x7f05003d
+int id to 0x7f050074
 int id top_action_bar 0x7f050032
 int id txtMonth 0x7f050080
 int id txtYear 0x7f050081
@@ -508,7 +508,7 @@ int layout activity_offer_forms 0x7f03001f
 int layout activity_offer_taxi 0x7f030020
 int layout activity_rating_form 0x7f030021
 int layout activity_register_screen 0x7f030022
-int layout activity_registration_successful 0x7f030023
+int layout activity_registration_success 0x7f030023
 int layout activity_request_ride 0x7f030024
 int layout activity_reset_password_screen 0x7f030025
 int layout activity_ride_in_progress_screen 0x7f030026
@@ -517,6 +517,7 @@ int layout support_simple_spinner_dropdown_item 0x7f030028
 int menu book_ride 0x7f0c0000
 int menu login 0x7f0c0001
 int menu rating_form 0x7f0c0002
+int menu registration_success 0x7f0c0003
 int string abc_action_bar_home_description 0x7f0a0001
 int string abc_action_bar_up_description 0x7f0a0002
 int string abc_action_menu_overflow_description 0x7f0a0003
@@ -631,6 +632,7 @@ int string title_activity_offer_forms 0x7f0a007a
 int string title_activity_offer_taxi 0x7f0a0048
 int string title_activity_rating_form 0x7f0a004b
 int string title_activity_register_screen 0x7f0a0042
+int string title_activity_registration_success 0x7f0a007c
 int string title_activity_request_ride 0x7f0a007b
 int string title_activity_reset_password_screen 0x7f0a0050
 int string title_activity_ride_in_progress_screen 0x7f0a0059

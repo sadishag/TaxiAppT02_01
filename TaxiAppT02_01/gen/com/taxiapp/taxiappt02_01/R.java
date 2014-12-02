@@ -1500,17 +1500,13 @@ containing a value of this type.
         public static final int classic=0x7f050029;
         public static final int collapseActionView=0x7f05000d;
         public static final int confirmpassword=0x7f05006d;
+        public static final int date=0x7f050076;
         public static final int default_activity_button=0x7f05003a;
         public static final int destinationEditText=0x7f050067;
         public static final int dialog=0x7f05000e;
         public static final int disableHome=0x7f050008;
         public static final int doneEmailSentButton=0x7f050051;
         public static final int dropdown=0x7f05000f;
-        public static final int editText1=0x7f050076;
-        public static final int editText2=0x7f050074;
-        public static final int editText3=0x7f050075;
-        public static final int editText4=0x7f050077;
-        public static final int editText5=0x7f050078;
         public static final int edit_query=0x7f050042;
         public static final int email=0x7f05006e;
         public static final int emailResetEditText=0x7f05007a;
@@ -1523,6 +1519,7 @@ containing a value of this type.
         public static final int femaleRadio=0x7f050064;
         public static final int firstname=0x7f05006b;
         public static final int forgotpassword=0x7f050055;
+        public static final int from=0x7f050075;
         public static final int gender=0x7f05006f;
         public static final int grayscale=0x7f05002a;
         public static final int holo_dark=0x7f05001d;
@@ -1551,6 +1548,7 @@ containing a value of this type.
         public static final int never=0x7f050009;
         public static final int none=0x7f050010;
         public static final int normal=0x7f050000;
+        public static final int numberofriders=0x7f050078;
         public static final int offerCurrent=0x7f050069;
         public static final int offerText=0x7f050068;
         public static final int offertaxishare=0x7f05005b;
@@ -1596,7 +1594,9 @@ containing a value of this type.
         public static final int textView1=0x7f050065;
         public static final int textView2=0x7f050073;
         public static final int textView3=0x7f050072;
+        public static final int time=0x7f050077;
         public static final int title=0x7f05003d;
+        public static final int to=0x7f050074;
         public static final int top_action_bar=0x7f050032;
         public static final int txtMonth=0x7f050080;
         public static final int txtYear=0x7f050081;
@@ -1670,7 +1670,7 @@ containing a value of this type.
         public static final int activity_offer_taxi=0x7f030020;
         public static final int activity_rating_form=0x7f030021;
         public static final int activity_register_screen=0x7f030022;
-        public static final int activity_registration_successful=0x7f030023;
+        public static final int activity_registration_success=0x7f030023;
         public static final int activity_request_ride=0x7f030024;
         public static final int activity_reset_password_screen=0x7f030025;
         public static final int activity_ride_in_progress_screen=0x7f030026;
@@ -1681,6 +1681,7 @@ containing a value of this type.
         public static final int book_ride=0x7f0c0000;
         public static final int login=0x7f0c0001;
         public static final int rating_form=0x7f0c0002;
+        public static final int registration_success=0x7f0c0003;
     }
     public static final class string {
         /**  Content description for the action bar "home" affordance. [CHAR LIMIT=NONE] 
@@ -1895,6 +1896,7 @@ containing a value of this type.
         public static final int title_activity_offer_taxi=0x7f0a0048;
         public static final int title_activity_rating_form=0x7f0a004b;
         public static final int title_activity_register_screen=0x7f0a0042;
+        public static final int title_activity_registration_success=0x7f0a007c;
         public static final int title_activity_request_ride=0x7f0a007b;
         public static final int title_activity_reset_password_screen=0x7f0a0050;
         public static final int title_activity_ride_in_progress_screen=0x7f0a0059;

@@ -1,6 +1,7 @@
 package com.taxiapp.taxiappt02_01;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -8,15 +9,20 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
+import android.widget.Button;
 
 public class RegisterScreen extends Activity {
-
+	
+    Button register;
+    
 	private EditText firstname;
 	private EditText lastname;
 	private EditText email;
 	private EditText username;
 	private EditText password;
 	private String gender;
+	
+
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -29,8 +35,20 @@ public class RegisterScreen extends Activity {
 		username = (EditText) findViewById(R.id.username);
 		password = (EditText) findViewById(R.id.password);
 		
+		register = (Button) findViewById(R.id.register);
 		
+		register.setOnClickListener(new View.OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				Intent intent = new Intent(RegisterScreen.this, RegistrationSuccessActivity.class);
+	            startActivity(intent);  				
+			}
+		});
 	}
+		
+		
+		
 	
 	public void listenToRegister(View view) {
 		String firstnameField = firstname.getText().toString();
@@ -40,4 +58,8 @@ public class RegisterScreen extends Activity {
 		String passwordField = password.getText().toString();
 		
 	}
+	
+	
+	
 }
+
