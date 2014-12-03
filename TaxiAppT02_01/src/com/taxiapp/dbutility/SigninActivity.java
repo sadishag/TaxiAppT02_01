@@ -14,7 +14,7 @@ import org.apache.http.impl.client.DefaultHttpClient;
 import com.taxiapp.taxiappt02_01.MainActivity;
 import com.taxiapp.taxiappt02_01.MainMenu;
 
-import com.taxiapp.encryptutility.SecurityController;
+import com.taxiapp.controllers.SecurityController;
 
 import android.app.ProgressDialog;
 import android.content.Context;
@@ -75,8 +75,10 @@ public class SigninActivity  extends AsyncTask<String,Void,String>{
 			String password = (String)arg0[1];
 			
 			password = security.encodeString(password);
-			
 			Log.d(TAG, "Password= " + password);
+			
+			String tmpDecrypt = security.decodeString(password);
+			Log.d(TAG, "DecryptedPassword= " + tmpDecrypt); //used just to show that decrypt works
 			
 			String link = "http://taxishare.site40.net/login.php?username="+username+"&password="+password;
 			//				String link = "http://myphpmysqlweb.hostei.com/login.php?username="+username+"&password="+password;

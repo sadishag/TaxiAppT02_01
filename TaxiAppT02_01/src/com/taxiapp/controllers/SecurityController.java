@@ -1,4 +1,4 @@
-package com.taxiapp.encryptutility;
+package com.taxiapp.controllers;
 
 import org.apache.commons.codec.binary.Base64;
 
@@ -16,5 +16,4 @@ public class SecurityController {
 		return decodedString;
 	}
 	
-
 }

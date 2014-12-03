@@ -89,13 +89,11 @@ public class MainMenu extends Activity {
 			@Override
 			public void onClick(View v) {
 				Intent intent = new Intent(MainMenu.this, MainActivity.class);
-                startActivity(intent);  				
+                startActivity(intent); 
+				
 			}
 		});
-		
-		
 	}
-	
 }
 	
 	
