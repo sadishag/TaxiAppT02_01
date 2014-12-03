@@ -1,6 +1,7 @@
 package com.taxiapp.taxiappt02_01;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
@@ -16,6 +17,7 @@ public class RegisterScreen extends Activity {
 	private EditText email;
 	private EditText username;
 	private EditText password;
+	private EditText confirmPassword;
 	private RadioGroup gender;
 	
 	RegisterActivity register;
@@ -30,6 +32,7 @@ public class RegisterScreen extends Activity {
 		email = (EditText) findViewById(R.id.email);
 		username = (EditText) findViewById(R.id.username);
 		password = (EditText) findViewById(R.id.password);
+		confirmPassword = (EditText) findViewById(R.id.confirmpassword);
 		gender = (RadioGroup) findViewById(R.id.gender);
 		
 		
@@ -42,6 +45,7 @@ public class RegisterScreen extends Activity {
 		String emailField = email.getText().toString();
 		String usernameField = username.getText().toString();
 		String passwordField = password.getText().toString();
+		String confirmPasswordField = confirmPassword.getText().toString();
 		String genderField = "male";
 		
 		int selectedGenderID = gender.getCheckedRadioButtonId();
@@ -50,7 +54,17 @@ public class RegisterScreen extends Activity {
 		} 
 		
 		register = new RegisterActivity(this);
-//        register.execute(firstnameField,lastnameField,emailField,usernameField,passwordField,genderField);
+        register.execute(firstnameField,lastnameField,emailField,usernameField,passwordField,confirmPasswordField,genderField);
 		
+	}
+	
+	public void registerSuccessProceed() {
+	    Intent registerSuccessIntent = new Intent(this, MainMenu.class);
+	    startActivity(registerSuccessIntent);
+	}
+	
+	public void registerErrorProceed() {
+	    Intent registerErrorIntent = new Intent(this, RegistrationErrorScreen.class);
+	    startActivity(registerErrorIntent);
 	}
 }

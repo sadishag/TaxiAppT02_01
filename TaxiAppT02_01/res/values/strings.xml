@@ -40,7 +40,7 @@
     <string name="input_request_taxiride_date">Date mm/dd/yyyy</string>
     <string name="input_request_taxiride_time">Time 24hrs hh/mm</string>
     <string name="number_of_riders"># of riders</string>
-    
+
     <color name="red">#ff00</color>
 
     <string name="bookRide">Book Future Ride</string>
@@ -80,6 +80,8 @@
     <string name="seatsAvailable">Seats Available</string>
     <string name="title_activity_offer_forms">Offer Form</string>
     <string name="title_activity_request_ride">RequestTaxi</string>
-    
+    <string name="title_activity_registration_error_screen">RegistrationErrorScreen</string>
+    <string name="registrationError">Registration Error!</string>
+    <string name="tryagain">Try Again</string>
 
 </resources>
