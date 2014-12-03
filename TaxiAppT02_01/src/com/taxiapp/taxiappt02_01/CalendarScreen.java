@@ -23,9 +23,4 @@ public class CalendarScreen extends Activity {
         setContentView(mv);
         
 	}
-	
-	public void bookARide(){
-		Intent intent = new Intent(this, BookRide.class);
-		startActivity(intent);
-	}
 }
