@@ -13,7 +13,7 @@ import com.taxiapp.dbutility.SigninActivity;
 
 public class RegisterScreen extends Activity {
 	
-    Button register;
+    RegisterActivity register1;
     
 	private EditText firstname;
 	private EditText lastname;
@@ -22,7 +22,7 @@ public class RegisterScreen extends Activity {
 	private EditText password;
 	private RadioGroup gender;
 	
-	RegisterActivity register;
+	Button register;
 	
 
 	
@@ -67,7 +67,7 @@ public class RegisterScreen extends Activity {
 		    genderField = "female";
 		} 
 		
-		register = new RegisterActivity(this);
+		register1 = new RegisterActivity(this);
 //        register.execute(firstnameField,lastnameField,emailField,usernameField,passwordField,genderField);
 		
 	}

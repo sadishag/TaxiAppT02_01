@@ -29,6 +29,8 @@ public class RegisterActivity  extends AsyncTask<String,Void,String>{
     
     MainActivity mainLogin = new MainActivity();
     
+    private Boolean loginAccess;
+    
     private boolean registrationAllow;
 
     private TextView statusField;
