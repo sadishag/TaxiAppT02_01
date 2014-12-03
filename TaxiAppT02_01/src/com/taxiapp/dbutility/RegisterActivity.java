@@ -29,7 +29,7 @@ public class RegisterActivity  extends AsyncTask<String,Void,String>{
     private StringBuffer sb = new StringBuffer("");
 
     RegisterScreen registration;
-    SecurityController security;
+    SecurityController security = new SecurityController();
 
     ProgressDialog progress; 
     //  = ProgressDialog.show(context, "Processing...", "We are checking your credentials");
@@ -73,17 +73,13 @@ public class RegisterActivity  extends AsyncTask<String,Void,String>{
                 sb.append(line);
                 break;
             }
-
+            
             if (sb.toString().isEmpty()) {
+                password = security.encrypt(password);
                 registrationAllow = true;
-                byte[] passwordE = security.encrypt(password);
-//                Log.d(TAG, "Password= " + passwordE.toString());
-                String passwordEstring = new String(passwordE, "UTF-8");
-                String tmpDecrypt = security.decrypt(passwordE);
-//                Log.d(TAG, "DecryptedPassword= " + tmpDecrypt); //used just to show that decrypt works
                 
                 //add information to database
-                String insertLink = "http://taxishare.site40.net/register.php?"+"firstname="+firstname+"&lastname="+lastname+"&email="+email+"&gender="+gender+"&username="+username+"&password="+passwordEstring;
+                String insertLink = "http://taxishare.site40.net/register.php?"+"firstname="+firstname+"&lastname="+lastname+"&email="+email+"&gender="+gender+"&username="+username+"&password="+password;
                 HttpPost post = new HttpPost(insertLink);
                 client.execute(post);
             } else {
