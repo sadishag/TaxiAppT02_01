@@ -20,9 +20,6 @@ public class RideInProgressScreen extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_ride_in_progress_screen);
 
-
-
-
 		// Get a handle to the Map Fragment
 		GoogleMap map = ((MapFragment) getFragmentManager().findFragmentById(R.id.map)).getMap();
 

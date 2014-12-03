@@ -15,6 +15,7 @@ import android.app.ProgressDialog;
 import android.os.AsyncTask;
 import android.util.Log;
 
+import com.taxiapp.controllers.SecurityController;
 import com.taxiapp.taxiappt02_01.MainActivity;
 import com.taxiapp.taxiappt02_01.RegisterScreen;
 
@@ -28,6 +29,7 @@ public class RegisterActivity  extends AsyncTask<String,Void,String>{
     private StringBuffer sb = new StringBuffer("");
 
     RegisterScreen registration;
+    SecurityController security;
 
     ProgressDialog progress; 
     //  = ProgressDialog.show(context, "Processing...", "We are checking your credentials");
@@ -55,7 +57,8 @@ public class RegisterActivity  extends AsyncTask<String,Void,String>{
                 registrationError = "Passwords are not the same.";
                 return "error";
             } 
-
+            
+            
             //check register values
             String link = "http://taxishare.site40.net/registerCheck.php?username="+username+"&email="+email;
             HttpClient client = new DefaultHttpClient();
@@ -73,9 +76,14 @@ public class RegisterActivity  extends AsyncTask<String,Void,String>{
 
             if (sb.toString().isEmpty()) {
                 registrationAllow = true;
+                byte[] passwordE = security.encrypt(password);
+//                Log.d(TAG, "Password= " + passwordE.toString());
+                String passwordEstring = new String(passwordE, "UTF-8");
+                String tmpDecrypt = security.decrypt(passwordE);
+//                Log.d(TAG, "DecryptedPassword= " + tmpDecrypt); //used just to show that decrypt works
                 
                 //add information to database
-                String insertLink = "http://taxishare.site40.net/register.php?"+"firstname="+firstname+"&lastname="+lastname+"&email="+email+"&gender="+gender+"&username="+username+"&password="+password;
+                String insertLink = "http://taxishare.site40.net/register.php?"+"firstname="+firstname+"&lastname="+lastname+"&email="+email+"&gender="+gender+"&username="+username+"&password="+passwordEstring;
                 HttpPost post = new HttpPost(insertLink);
                 client.execute(post);
             } else {
