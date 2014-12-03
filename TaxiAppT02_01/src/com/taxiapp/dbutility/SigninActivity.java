@@ -9,6 +9,7 @@ import java.net.URL;
 import org.apache.http.HttpResponse;
 import org.apache.http.client.HttpClient;
 import org.apache.http.client.methods.HttpGet;
+import org.apache.http.client.methods.HttpPost;
 import org.apache.http.impl.client.DefaultHttpClient;
 
 import com.taxiapp.taxiappt02_01.MainActivity;
@@ -74,11 +75,9 @@ public class SigninActivity  extends AsyncTask<String,Void,String>{
 			String username = (String)arg0[0];
 			String password = (String)arg0[1];
 			
-			//byte[] passwordE = security.encrypt(password);
-			//Log.d(TAG, "Password= " + passwordE.toString());
-			
-			//String tmpDecrypt = security.decrypt(passwordE);
-			//Log.d(TAG, "DecryptedPassword= " + tmpDecrypt); //used just to show that decrypt works
+
+			password = security.encrypt(password);
+
 			
 			String link = "http://taxishare.site40.net/login.php?username="+username+"&password="+password;
 			//				String link = "http://myphpmysqlweb.hostei.com/login.php?username="+username+"&password="+password;
@@ -103,6 +102,17 @@ public class SigninActivity  extends AsyncTask<String,Void,String>{
 
 			if(sb.toString().equals(checkAccess.toString())){
 				loginAccess = true;
+                String insertLink = "http://taxishare.site40.net/getInfo.php?"+"username="+username;
+                HttpPost post = new HttpPost(insertLink);
+                response = client.execute(post);
+                
+                inStream = new InputStreamReader(response.getEntity().getContent());
+                in = new BufferedReader(inStream);
+                String line="";
+                while ((line = in.readLine()) != null) {
+                    sb.append(line);
+                    break;
+                }
 			}
 			else {
 				loginAccess = false;

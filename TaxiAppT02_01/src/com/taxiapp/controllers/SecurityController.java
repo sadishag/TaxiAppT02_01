@@ -1,27 +1,18 @@
 package com.taxiapp.controllers;
 
-import javax.crypto.Cipher;
-import javax.crypto.spec.IvParameterSpec;
-import javax.crypto.spec.SecretKeySpec;
+import org.apache.commons.codec.binary.Base64;
 
 public class SecurityController {
-    static String IV = "AAAAAAAAAAAAAAAA";
-    private static String encryptionKey = "0123456789abcdef";
-
-    public SecurityController() {
+    
+    public String encrypt(String string) {
+        byte[] encryptByteArray = Base64.encodeBase64(string.getBytes());
+        String encryptString = new String(encryptByteArray);
+        return encryptString;
     }
-
-    public static byte[] encrypt(String plainText) throws Exception {
-        Cipher cipher = Cipher.getInstance("AES/CBC/NoPadding", "SunJCE");
-        SecretKeySpec key = new SecretKeySpec(encryptionKey.getBytes("UTF-8"), "AES");
-        cipher.init(Cipher.ENCRYPT_MODE, key,new IvParameterSpec(IV.getBytes("UTF-8")));
-        return cipher.doFinal(plainText.getBytes("UTF-8"));
-    }
-
-    public static String decrypt(byte[] cipherText) throws Exception{
-        Cipher cipher = Cipher.getInstance("AES/CBC/NoPadding", "SunJCE");
-        SecretKeySpec key = new SecretKeySpec(encryptionKey.getBytes("UTF-8"), "AES");
-        cipher.init(Cipher.DECRYPT_MODE, key,new IvParameterSpec(IV.getBytes("UTF-8")));
-        return new String(cipher.doFinal(cipherText),"UTF-8");
+    
+    public String decrypt(String encryptedString) {
+        byte[] decryptByteArray = Base64.decodeBase64(encryptedString.getBytes());
+        String decryptString = new String(decryptByteArray);
+        return decryptString;
     }
 }
