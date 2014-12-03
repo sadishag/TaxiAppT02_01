@@ -2,10 +2,13 @@ package com.taxiapp.taxiappt02_01;
 
 import java.util.Date;
 import java.util.Calendar;
+import android.annotation.SuppressLint;
 import android.content.Context;
+import android.content.Intent;
 import android.content.res.Resources;
 import android.database.Cursor;
 import android.graphics.Color;
+import android.os.Bundle;
 import android.text.Html;
 import android.util.AttributeSet;
 import android.util.TypedValue;
@@ -13,13 +16,14 @@ import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.animation.TranslateAnimation;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TableLayout;
 import android.widget.TableRow;
 import android.widget.TextView;
 
-public class CalendarView extends TableLayout{
+public class CalendarView extends TableLayout {
 
 	
 	int day=0,month=0,year=0;
@@ -176,9 +180,24 @@ public class CalendarView extends TableLayout{
 		android.widget.TableRow.LayoutParams lp;
 		
 		RelativeLayout rl = (RelativeLayout) LayoutInflater.from(context).inflate(R.layout.calendar_top_view, null);
+		RelativeLayout r2 = (RelativeLayout) LayoutInflater.from(context).inflate(R.layout.calendar_bottom_view,null);
+		
+		Button eventButton = (Button) findViewById(R.id.event);
+		
+//		eventButton.setContentView(R.layout.calendar_bottom_view);
+//		Button b = (Button) dialog.findViewById(R.id.Button_pumpInfo);
+//		b.setOnClickListener(new OnClickListener() {
+//
+//		   @Override
+//		   public void onCLick(View v) {
+//		       // profit
+//		   }
+//		});
+        
 		
 		//create the left arrow button for displaying the previous month
 		ImageView btn1 = (ImageView) rl.findViewById(R.id.imgLeft);
+		
 		btn1.setTag("<");
 		btn1.setOnClickListener(ChangeMonthListener);
 		
@@ -192,7 +211,7 @@ public class CalendarView extends TableLayout{
 		btn1.setTag(">");
 		btn1.setOnClickListener(ChangeMonthListener);
 		//add the tablerow containing the next and prev views to the calendar
-		addView(rl);		
+		addView(rl);
 		
 		tr = new TableRow(context); //create a new row to add to the tablelayout
 		tr.setWeightSum(0.7f);
@@ -264,16 +283,16 @@ public class CalendarView extends TableLayout{
 					{
 						tv = btn;
 						btn.setBackgroundResource(R.drawable.current_day);
-						btn.setTextColor(Color.BLACK);
+						btn.setTextColor(Color.GREEN);
 					}
 					else if(selected_day==day)
 					{
 						tv = btn;
 						btn.setBackgroundResource(R.drawable.selectedgrad);
-						btn.setTextColor(Color.WHITE);
+						btn.setTextColor(Color.BLACK);
 					}
 					else
-						btn.setTextColor(Color.WHITE);
+						btn.setTextColor(Color.BLACK);
 					
 					//set the text of the day
 					btn.setText(Html.fromHtml("<b>"+String.valueOf(day++)+"</b>"));
@@ -288,6 +307,7 @@ public class CalendarView extends TableLayout{
 				btn.setPadding(8,8,8,8);	//maintains proper distance between two adjacent days
 				tr.addView(btn);
 			}
+			
 			if(animationEnabled)
 			{
 				if(animFlag)
@@ -297,12 +317,17 @@ public class CalendarView extends TableLayout{
 			}
 			//this adds a table row for six times for six different rows in the calendar
 			addView(tr);
+			
 		}
+		addView(r2);		
+		
 	}
 	private TextView tv;
 	
+	
 	//Called when a day is clicked.
 	private OnClickListener dayClickedListener = new OnClickListener(){
+		
 		@Override
 		public void onClick(View v) {
 			if(tv!=null)
@@ -333,7 +358,8 @@ public class CalendarView extends TableLayout{
 			/*save the day,month and year in the public int variables day,month and year
 			 so that they can be used when the calendar is closed */
 			
-			cal.set(Calendar.DAY_OF_MONTH, day);			
+			cal.set(Calendar.DAY_OF_MONTH, day);
+			
 		}
 	};
 }
