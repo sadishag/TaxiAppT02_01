@@ -49,9 +49,9 @@ public class RegisterActivity  extends AsyncTask<String,Void,String>{
 
     @Override
     protected String doInBackground(String... arg0) {
-
+//        Log.d(TAG, "dbValues");
         try {
-            Log.d(TAG, "dbValues");
+//            Log.d(TAG, "dbValues");
             String firstname = (String) arg0[0];
             String lastname = (String) arg0[1];
             String email = (String) arg0[2];
@@ -60,24 +60,24 @@ public class RegisterActivity  extends AsyncTask<String,Void,String>{
             String confirmPassword = (String) arg0[5];
             String gender = (String) arg0[6];
 
-            if (!(password.equals(confirmPassword))) {
-                registrationAllow = false;
-                registrationError = "Passwords are not the same.";
-                Log.v(TAG, "dbValues");
-                return "error";
-            }
-
+//            if (!(password.equals(confirmPassword))) {
+//                registrationAllow = false;
+//                registrationError = "Passwords are not the same.";
+//                Log.d(TAG, "passwords not the same");
+//                return "error";
+//            } 
+            Log.d(TAG, "dbValues2");
             checkExist[0] = username;
             checkExist[1] = email;
-
+            Log.d(TAG, "dbValues");
             //check register values
             String checklink = "http://taxishare.site40.net/registercheck.php?username="+username+"&email="+email;
-            //            URL url = new URL(link);
+//            URL url = new URL(link);
             HttpClient client = new DefaultHttpClient();
             HttpGet request = new HttpGet();
             request.setURI(new URI(checklink));
             HttpResponse response = client.execute(request);
-
+//            Log.d(TAG, "dbValues");
             InputStreamReader inStream = new InputStreamReader(response.getEntity().getContent());
             BufferedReader in = new BufferedReader(inStream);
 
@@ -86,12 +86,15 @@ public class RegisterActivity  extends AsyncTask<String,Void,String>{
                 sb.append(line);
                 break;
             }
-            Log.d(TAG, "StringBuffer= " + sb.toString());
+//            Log.d(TAG, "StringBuffer= " + sb.toString());
             //            Log.d(TAG, "CheckAccess= " + checkAccess.toString());
 
             String[] dbValues = sb.toString().split(", ");
-            Log.v(TAG, "dbValues= " + dbValues[0]);
-            if(dbValues[0].equals(checkExist[0]) || dbValues[1].equals(checkExist[1])){
+//            Log.v("check values", "dbValues= " + dbValues[0]);
+            if (dbValues[0].isEmpty()) {
+                Log.d(TAG,"it is empty");
+            }
+            if (dbValues[0].equals(checkExist[0]) || dbValues[1].equals(checkExist[1])) {
                 registrationAllow = false;
             } else {
                 registrationAllow = true;
@@ -103,7 +106,7 @@ public class RegisterActivity  extends AsyncTask<String,Void,String>{
             in.close();
 
             return sb.toString();
-
+            
             //            return "done";
         } catch(Exception e) {
             return new String("Exception: " + e.getMessage());

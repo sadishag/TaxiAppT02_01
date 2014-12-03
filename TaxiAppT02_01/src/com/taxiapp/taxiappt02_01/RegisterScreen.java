@@ -13,7 +13,7 @@ import com.taxiapp.dbutility.SigninActivity;
 
 public class RegisterScreen extends Activity {
 	
-    Button register;
+//    Button register;
     
 	private EditText firstname;
 	private EditText lastname;
@@ -41,16 +41,16 @@ public class RegisterScreen extends Activity {
 		gender = (RadioGroup) findViewById(R.id.gender);
 		
 		
-		register = (Button) findViewById(R.id.register);
-		
-		register.setOnClickListener(new View.OnClickListener() {
-			
-			@Override
-			public void onClick(View v) {
-				Intent intent = new Intent(RegisterScreen.this, RegistrationSuccessActivity.class);
-	            startActivity(intent);  				
-			}
-		});
+//		register = (Button) findViewById(R.id.register);
+//		
+//		register.setOnClickListener(new View.OnClickListener() {
+//			
+//			@Override
+//			public void onClick(View v) {
+//				Intent intent = new Intent(RegisterScreen.this, RegistrationSuccessActivity.class);
+//	            startActivity(intent);  				
+//			}
+//		});
 	}
 		
 		
