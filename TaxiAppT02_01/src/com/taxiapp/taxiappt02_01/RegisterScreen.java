@@ -67,17 +67,13 @@ public class RegisterScreen extends Activity {
 		String usernameField = username.getText().toString();
 		String passwordField = password.getText().toString();
 		String confirmPasswordField = confirmPassword.getText().toString();
-		String genderField = "male";
+		String genderField = "M";
 		
 		int selectedGenderID = gender.getCheckedRadioButtonId();
 		if (selectedGenderID == 2) {
-		    genderField = "female";
+		    genderField = "F";
 		} 
 		
-
-		register1 = new RegisterActivity(this);
-//        register.execute(firstnameField,lastnameField,emailField,usernameField,passwordField,genderField);
-
 		register = new RegisterActivity(this);
         register.execute(firstnameField,lastnameField,emailField,usernameField,passwordField,confirmPasswordField,genderField);
 
@@ -86,11 +82,11 @@ public class RegisterScreen extends Activity {
 	
 
 	public void registerSuccessProceed() {
-	    Intent registerSuccessIntent = new Intent(this, MainMenu.class);
+	    Intent registerSuccessIntent = new Intent(this, RegistrationSuccessActivity.class);
 	    startActivity(registerSuccessIntent);
 	}
 	
-	public void registerErrorProceed() {
+	public void registerErrorProceed(String registrationError) {
 	    Intent registerErrorIntent = new Intent(this, RegistrationErrorScreen.class);
 	    startActivity(registerErrorIntent);
 	} 

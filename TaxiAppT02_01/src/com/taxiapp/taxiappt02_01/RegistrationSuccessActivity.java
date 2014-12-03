@@ -10,28 +10,28 @@ import android.widget.Button;
 
 public class RegistrationSuccessActivity extends Activity {
 	
-	Button backtologin;
+//	Button backtologin;
+	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_registration_success);
 		
-		backtologin = (Button) findViewById(R.id.submitButton);
-		
-		backtologin.setOnClickListener(new View.OnClickListener() {
-			
-			@Override
-			public void onClick(View v) {
-				Intent intent = new Intent(RegistrationSuccessActivity.this, MainActivity.class);
-                startActivity(intent);  				
-			}
-		});
-		
-		
-		
-		
-		
-		
+//		backtologin = (Button) findViewById(R.id.submitButton);
+//		
+//		backtologin.setOnClickListener(new View.OnClickListener() {
+//			
+//			@Override
+//			public void onClick(View v) {
+//				Intent intent = new Intent(RegistrationSuccessActivity.this, MainActivity.class);
+//                startActivity(intent);  				
+//			}
+//		});
+	}
+	
+	public void backToLoginButton(View view) {
+	    Intent backToLogin = new Intent(this, MainActivity.class);
+        startActivity(backToLogin);
 	}
 
 	/*@Override
