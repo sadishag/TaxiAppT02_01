@@ -6,10 +6,10 @@ if (mysqli_connect_errno($con))
 }
 $username = $_GET['username'];
 $password = $_GET['password'];
-$firstname = $_GET('firstname');
-$lastname = $_GET('lastname');
-$email = $_GET('email');
-$gender = $_GET('gender');
+$firstname = $_GET['firstname'];
+$lastname = $_GET['lastname'];
+$email = $_GET['email'];
+$gender = $_GET['gender';
 $result = mysqli_query($con,"INSERT INTO CustomerInfoDB (CONCAT FirstName, ', ', LastName,', ',EmailAddress,', ',Gender,', ',Username,', ',Password) 
 	VALUES (CONCAT('$firstname',', ', '$lastname', ',', '$email', ',', '$gender',',', '$username',',', 'password'))");
 $row = mysqli_fetch_row($result);
