@@ -77,6 +77,7 @@ public class SigninActivity  extends AsyncTask<String,Void,String>{
 			
 
 			password = security.encrypt(password);
+			Log.d(TAG,"password="+password);
 
 			
 			String link = "http://taxishare.site40.net/login.php?username="+username+"&password="+password;
@@ -108,11 +109,17 @@ public class SigninActivity  extends AsyncTask<String,Void,String>{
                 
                 inStream = new InputStreamReader(response.getEntity().getContent());
                 in = new BufferedReader(inStream);
-                String line1="";
-                while ((line1 = in.readLine()) != null) {
-                    sb.append(line1);
+
+
+
+                line="";
+                while ((line = in.readLine()) != null) {
+                    sb.append(line);
+
                     break;
                 }
+                sb.toString();
+                
 			}
 			else {
 				loginAccess = false;
