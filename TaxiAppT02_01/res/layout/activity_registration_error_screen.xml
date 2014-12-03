@@ -32,6 +32,7 @@
         android:layout_below="@+id/registrationError"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="62dp"
-        android:text="@string/tryagain" />
+        android:text="@string/tryagain"
+        android:onClick="tryAgainButtonPress" />
 
 </RelativeLayout>
