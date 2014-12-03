@@ -127,8 +127,7 @@ public class RegisterActivity  extends AsyncTask<String,Void,String>{
                 e.printStackTrace();
             }
             registration.registerSuccessProceed();
-        }
-        else if (registrationAllow == false) {
+        } else if (registrationAllow == false) {
             registration.registerErrorProceed();
         }
     }
