@@ -75,8 +75,10 @@ public class SigninActivity  extends AsyncTask<String,Void,String>{
 			String username = (String)arg0[0];
 			String password = (String)arg0[1];
 			
+
 			password = security.encrypt(password);
 			Log.d(TAG,"password="+password);
+
 			
 			String link = "http://taxishare.site40.net/login.php?username="+username+"&password="+password;
 			//				String link = "http://myphpmysqlweb.hostei.com/login.php?username="+username+"&password="+password;
