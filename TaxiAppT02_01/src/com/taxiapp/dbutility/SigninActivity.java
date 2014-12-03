@@ -108,9 +108,9 @@ public class SigninActivity  extends AsyncTask<String,Void,String>{
                 
                 inStream = new InputStreamReader(response.getEntity().getContent());
                 in = new BufferedReader(inStream);
-                String line="";
-                while ((line = in.readLine()) != null) {
-                    sb.append(line);
+                String line1="";
+                while ((line1 = in.readLine()) != null) {
+                    sb.append(line1);
                     break;
                 }
 			}
