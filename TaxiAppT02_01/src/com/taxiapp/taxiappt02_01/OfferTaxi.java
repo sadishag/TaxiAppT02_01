@@ -24,7 +24,7 @@ public class OfferTaxi extends Activity {
 			
 			@Override
 			public void onClick(View v) {
-				Intent intent = new Intent(OfferTaxi.this, CheckinScreen.class);
+				Intent intent = new Intent(OfferTaxi.this, CheckinScreen.class).putExtra("this","OfferTaxi");
                 startActivity(intent);  				
 			}
 		});

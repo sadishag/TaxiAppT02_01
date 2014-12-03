@@ -127,6 +127,14 @@
             android:name=".RequestTaxi"
             android:label="@string/title_activity_request_ride" >
         </activity>
+                <activity
+            android:name=".RegistrationErrorScreen"
+            android:label="@string/title_activity_registration_error_screen" >
+        </activity>
+        <activity
+            android:name=".RegistrationSuccessActivity"
+            android:label="@string/title_activity_registration_success" >
+        </activity>
         
     </application>
 

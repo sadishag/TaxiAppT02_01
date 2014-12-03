@@ -65,7 +65,7 @@
     <string name="december">December</string>
     <string name="backtologinbutton">Login</string>
     <string name="resigtrationsuccmsg">Registration Success</string>
-    <string name="contratulations">Contratulations!</string>
+    <string name="congratulations">Congratulations!</string>
     <string name="from">From</string>
     <string name="to">To</string>
     <string name="search">Search</string>
@@ -77,8 +77,15 @@
     <string name="seatsAvailable">Seats Available</string>
     <string name="title_activity_offer_forms">Offer Form</string>
     <string name="title_activity_request_ride">RequestTaxi</string>
+<<<<<<< HEAD
     <string name="addevent">Add Event</string>
     <string name="eventbutton">Book Taxi</string>
     
+=======
+    <string name="title_activity_registration_error_screen">RegistrationErrorScreen</string>
+    <string name="registrationError">Registration Error!</string>
+    <string name="tryagain">Try Again</string>
+    <string name="title_activity_registration_success">MainActivity</string>
+>>>>>>> b2300deb0020564cab5e1c32686b31c500a3a5dd
 
 </resources>

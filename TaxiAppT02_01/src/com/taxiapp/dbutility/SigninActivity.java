@@ -9,10 +9,13 @@ import java.net.URL;
 import org.apache.http.HttpResponse;
 import org.apache.http.client.HttpClient;
 import org.apache.http.client.methods.HttpGet;
+import org.apache.http.client.methods.HttpPost;
 import org.apache.http.impl.client.DefaultHttpClient;
 
 import com.taxiapp.taxiappt02_01.MainActivity;
 import com.taxiapp.taxiappt02_01.MainMenu;
+
+import com.taxiapp.controllers.SecurityController;
 
 import android.app.ProgressDialog;
 import android.content.Context;
@@ -30,6 +33,7 @@ public class SigninActivity  extends AsyncTask<String,Void,String>{
 	private static final String TAG = "SigninActivity";
 	
 	MainActivity mainLogin = new MainActivity();
+	SecurityController security = new SecurityController();
 	
 	private boolean loginAccess;
 
@@ -70,6 +74,12 @@ public class SigninActivity  extends AsyncTask<String,Void,String>{
 		try{
 			String username = (String)arg0[0];
 			String password = (String)arg0[1];
+			
+
+			password = security.encrypt(password);
+			Log.d(TAG,"password="+password);
+
+			
 			String link = "http://taxishare.site40.net/login.php?username="+username+"&password="+password;
 			//				String link = "http://myphpmysqlweb.hostei.com/login.php?username="+username+"&password="+password;
 			checkAccess = username + ", " + password;
@@ -93,6 +103,23 @@ public class SigninActivity  extends AsyncTask<String,Void,String>{
 
 			if(sb.toString().equals(checkAccess.toString())){
 				loginAccess = true;
+                String insertLink = "http://taxishare.site40.net/getInfo.php?"+"username="+username;
+                HttpPost post = new HttpPost(insertLink);
+                response = client.execute(post);
+                
+                inStream = new InputStreamReader(response.getEntity().getContent());
+                in = new BufferedReader(inStream);
+
+
+
+                line="";
+                while ((line = in.readLine()) != null) {
+                    sb.append(line);
+
+                    break;
+                }
+                sb.toString();
+                
 			}
 			else {
 				loginAccess = false;

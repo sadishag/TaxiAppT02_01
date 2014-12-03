@@ -4,70 +4,67 @@ package com.taxiapp.dbutility;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.net.URI;
-import java.net.URL;
 
 import org.apache.http.HttpResponse;
 import org.apache.http.client.HttpClient;
 import org.apache.http.client.methods.HttpGet;
+import org.apache.http.client.methods.HttpPost;
 import org.apache.http.impl.client.DefaultHttpClient;
 
 import android.app.ProgressDialog;
 import android.os.AsyncTask;
-import android.os.Handler;
-import android.os.Message;
 import android.util.Log;
-import android.widget.TextView;
 
+import com.taxiapp.controllers.SecurityController;
 import com.taxiapp.taxiappt02_01.MainActivity;
 import com.taxiapp.taxiappt02_01.RegisterScreen;
 
 
 
 public class RegisterActivity  extends AsyncTask<String,Void,String>{
-    
-    private static final String TAG = "AsyncTask";
-    
-    MainActivity mainLogin = new MainActivity();
-    
-    private boolean loginAccess;
 
-    private TextView statusField;
-    private TextView roleField;
+    private boolean registrationAllow;
+    private String registrationError;
+
     private StringBuffer sb = new StringBuffer("");
-    private String checkAccess;
-    
+
     RegisterScreen registration;
+    SecurityController security = new SecurityController();
 
     ProgressDialog progress; 
-//  = ProgressDialog.show(context, "Processing...", "We are checking your credentials");
-    
+    //  = ProgressDialog.show(context, "Processing...", "We are checking your credentials");
+
     public RegisterActivity(RegisterScreen registerScreen) {
         this.registration = registerScreen;
     }
 
     protected void onPreExecute(){
     }
-    
+
     @Override
     protected String doInBackground(String... arg0) {
-
-        try{
-
+        try {
             String firstname = (String) arg0[0];
             String lastname = (String) arg0[1];
             String email = (String) arg0[2];
             String username = (String) arg0[3];
             String password = (String) arg0[4];
-            String gender = (String) arg0[5];
+            String confirmPassword = (String) arg0[5];
+            String gender = (String) arg0[6];
+
+            if (!(password.equals(confirmPassword))) {
+                registrationAllow = false;
+                registrationError = "Passwords are not the same.";
+                return "error";
+            } 
+            
             
             //check register values
-            String checklink = "http://taxishare.site40.net/registercheck.php?username="+username+"&email="+email;
-//            URL url = new URL(link);
+            String link = "http://taxishare.site40.net/registerCheck.php?username="+username+"&email="+email;
             HttpClient client = new DefaultHttpClient();
             HttpGet request = new HttpGet();
-            request.setURI(new URI(checklink));
+            request.setURI(new URI(link));
             HttpResponse response = client.execute(request);
-
             InputStreamReader inStream = new InputStreamReader(response.getEntity().getContent());
             BufferedReader in = new BufferedReader(inStream);
 
@@ -76,64 +73,43 @@ public class RegisterActivity  extends AsyncTask<String,Void,String>{
                 sb.append(line);
                 break;
             }
-            Log.d(TAG, "StringBuffer= " + sb.toString());
-            Log.d(TAG, "CheckAccess= " + checkAccess.toString());
             
-            String[] dbValues = sb.toString().split(", ");
-            
-            if(sb.toString().equals(checkAccess.toString())){
-                loginAccess = true;
+            if (sb.toString().isEmpty()) {
+                password = security.encrypt(password);
+                registrationAllow = true;
+                
+                //add information to database
+                String insertLink = "http://taxishare.site40.net/register.php?"+"firstname="+firstname+"&lastname="+lastname+"&email="+email+"&gender="+gender+"&username="+username+"&password="+password;
+                HttpPost post = new HttpPost(insertLink);
+                client.execute(post);
+            } else {
+                registrationAllow = false;
+                
+                //get error type
+                String[] resultSplit = sb.toString().split(",");
+                if (resultSplit[0].equals(username)) { 
+                    registrationError = "Username already exists.";
+                } else {
+                    registrationError = "Email is already registered.";
+                }
             }
-            else {
-                loginAccess = false;
-            }
-
-            Log.d(TAG, "loginAccess= " + loginAccess);
 
             in.close();
 
             return sb.toString();
-//            String link = "http://taxishare.site40.net/register.php?firstname="+firstname+"&lastname="+lastname+
-//                    "&email="+email+"&username="+username+"&password="+password+"&gender="+gender;
-//            return "done";
+            
         } catch(Exception e) {
             return new String("Exception: " + e.getMessage());
         }
     }
-    
+
     @Override
     protected void onPostExecute(String result){
-//      progress.cancel();
-        if(loginAccess == true) {
-            statusField.setText("Access Granted");
-//            loginMain.loginProceed(); 
-//          myHandler.sendEmptyMessage(0);
-        }
-        else {
-            statusField.setText("Login Failed");
+        if (registrationAllow == true) {
+            registration.registerSuccessProceed();
+        } else if (registrationAllow == false) {
+            registration.registerErrorProceed(registrationError);
         }
     }
-    
-    Handler myHandler = new Handler() {
 
-        @Override
-        public void handleMessage(Message msg) {
-            switch (msg.what) {
-            case 0:
-                // calling to this function from other pleaces
-                // The notice call method of doing things
-//                loginMain.loginProceed();
-                break;
-            default:
-                break;
-            }
-        }
-    };
-    
-    
-    public boolean getLoginAccess() {
-        
-        return loginAccess;
-    }
-    
 }

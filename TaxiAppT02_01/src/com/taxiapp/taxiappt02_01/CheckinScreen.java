@@ -55,9 +55,14 @@ public class CheckinScreen extends Activity {
 				Log.d(TAG, "QRCODE= " + qrcode);
 				// Handle successful scan
 				
-				
-				scannerIntent = new Intent(this, OfferTaxiForm.class);
-				startActivity(scannerIntent);
+				if (getIntent().getStringExtra("from").equals("OfferTaxi")){
+					scannerIntent = new Intent(this, OfferTaxiForm.class);
+					startActivity(scannerIntent);
+				}
+				else{
+					scannerIntent = new Intent(this, RideInProgressScreen.class);
+					startActivity(scannerIntent);
+				}
 				
 
 			} else if (resultCode == RESULT_CANCELED) {
