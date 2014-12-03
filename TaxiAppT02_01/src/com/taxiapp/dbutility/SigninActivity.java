@@ -74,11 +74,11 @@ public class SigninActivity  extends AsyncTask<String,Void,String>{
 			String username = (String)arg0[0];
 			String password = (String)arg0[1];
 			
-			byte[] passwordE = security.encrypt(password);
-			Log.d(TAG, "Password= " + passwordE.toString());
+			//byte[] passwordE = security.encrypt(password);
+			//Log.d(TAG, "Password= " + passwordE.toString());
 			
-			String tmpDecrypt = security.decrypt(passwordE);
-			Log.d(TAG, "DecryptedPassword= " + tmpDecrypt); //used just to show that decrypt works
+			//String tmpDecrypt = security.decrypt(passwordE);
+			//Log.d(TAG, "DecryptedPassword= " + tmpDecrypt); //used just to show that decrypt works
 			
 			String link = "http://taxishare.site40.net/login.php?username="+username+"&password="+password;
 			//				String link = "http://myphpmysqlweb.hostei.com/login.php?username="+username+"&password="+password;
