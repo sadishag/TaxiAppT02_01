@@ -6,12 +6,15 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.RadioGroup;
+import android.widget.Button;
 
 import com.taxiapp.dbutility.RegisterActivity;
 import com.taxiapp.dbutility.SigninActivity;
 
 public class RegisterScreen extends Activity {
-
+	
+    Button register;
+    
 	private EditText firstname;
 	private EditText lastname;
 	private EditText email;
@@ -21,6 +24,8 @@ public class RegisterScreen extends Activity {
 	private RadioGroup gender;
 	
 	RegisterActivity register;
+	
+
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -36,8 +41,20 @@ public class RegisterScreen extends Activity {
 		gender = (RadioGroup) findViewById(R.id.gender);
 		
 		
+		register = (Button) findViewById(R.id.register);
 		
+		register.setOnClickListener(new View.OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				Intent intent = new Intent(RegisterScreen.this, RegistrationSuccessActivity.class);
+	            startActivity(intent);  				
+			}
+		});
 	}
+		
+		
+		
 	
 	public void listenToRegister(View view) {
 		String firstnameField = firstname.getText().toString();
@@ -58,6 +75,7 @@ public class RegisterScreen extends Activity {
 		
 	}
 	
+
 	public void registerSuccessProceed() {
 	    Intent registerSuccessIntent = new Intent(this, MainMenu.class);
 	    startActivity(registerSuccessIntent);
@@ -67,4 +85,6 @@ public class RegisterScreen extends Activity {
 	    Intent registerErrorIntent = new Intent(this, RegistrationErrorScreen.class);
 	    startActivity(registerErrorIntent);
 	}
+
 }
+

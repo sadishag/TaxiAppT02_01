@@ -14,6 +14,8 @@ import org.apache.http.impl.client.DefaultHttpClient;
 import com.taxiapp.taxiappt02_01.MainActivity;
 import com.taxiapp.taxiappt02_01.MainMenu;
 
+import com.taxiapp.encryptutility.SecurityController;
+
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.Intent;
@@ -30,6 +32,7 @@ public class SigninActivity  extends AsyncTask<String,Void,String>{
 	private static final String TAG = "SigninActivity";
 	
 	MainActivity mainLogin = new MainActivity();
+	SecurityController security = new SecurityController();
 	
 	private boolean loginAccess;
 
@@ -70,6 +73,11 @@ public class SigninActivity  extends AsyncTask<String,Void,String>{
 		try{
 			String username = (String)arg0[0];
 			String password = (String)arg0[1];
+			
+			password = security.encodeString(password);
+			
+			Log.d(TAG, "Password= " + password);
+			
 			String link = "http://taxishare.site40.net/login.php?username="+username+"&password="+password;
 			//				String link = "http://myphpmysqlweb.hostei.com/login.php?username="+username+"&password="+password;
 			checkAccess = username + ", " + password;
