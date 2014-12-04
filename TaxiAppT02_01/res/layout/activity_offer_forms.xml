@@ -4,36 +4,6 @@
     android:layout_height="match_parent"
     android:background="@color/yellow" >
 
-    <RadioGroup
-        android:id="@+id/radioGroup1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/seatsAvailableEditText"
-        android:layout_centerHorizontal="true" >
-
-        <RadioButton
-            android:id="@+id/maleRadio"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Male" />
-
-        <RadioButton
-            android:id="@+id/femaleRadio"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Female" />
-    </RadioGroup>
-
-    <Button
-        android:id="@+id/submitButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="48dp"
-        android:onClick="listenToSubmit"
-        android:text="@string/submit" />
-
 <!--     <TextView -->
 <!--         android:id="@+id/taxiIDTextView" -->
 <!--         android:layout_width="wrap_content" -->
@@ -72,7 +42,7 @@
         android:layout_below="@+id/destinationEditText"
         android:layout_marginTop="45dp"
         android:ems="10"
-        android:hint="@string/seatsAvailable" />
+        android:hint="@string/seatsAvailable"/>
 
     <EditText
         android:id="@+id/destinationEditText"
@@ -83,5 +53,15 @@
         android:layout_marginTop="47dp"
         android:ems="10"
         android:hint="@string/destination" />
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/seatsAvailableEditText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="52dp"
+        android:onClick="listenToSubmit"
+        android:text="@string/submit" />
 
 </RelativeLayout>
