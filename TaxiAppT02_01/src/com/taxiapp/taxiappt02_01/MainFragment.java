@@ -23,11 +23,11 @@ public class MainFragment extends Fragment {
 	private static final String TAG = MainFragment.class.getSimpleName();
 
 	private boolean facebookLogin;
-	
+
 	private UiLifecycleHelper uiHelper;
-	
+
 	private final List<String> permissions;
-	
+
 	public MainFragment() {
 		permissions = Arrays.asList("user_status");
 	}
@@ -40,8 +40,7 @@ public class MainFragment extends Fragment {
 	}
 
 	@Override
-	public View onCreateView(LayoutInflater inflater, ViewGroup container,
-			Bundle savedInstanceState) {
+	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 		View view = inflater.inflate(R.layout.activity_main, container, false);
 
 		LoginButton authButton = (LoginButton) view.findViewById(R.id.authButton);
@@ -54,16 +53,15 @@ public class MainFragment extends Fragment {
 	@Override
 	public void onResume() {
 		super.onResume();
-		
+
 		// For scenarios where the main activity is launched and user
-	    // session is not null, the session state change notification
-	    // may not be triggered. Trigger it if it's open/closed.
-	    Session session = Session.getActiveSession();
-	    if (session != null &&
-	           (session.isOpened() || session.isClosed()) ) {
-	        onSessionStateChange(session, session.getState(), null);
-	    }
-	    
+		// session is not null, the session state change notification
+		// may not be triggered. Trigger it if it's open/closed.
+		Session session = Session.getActiveSession();
+		if (session != null && (session.isOpened() || session.isClosed())) {
+			onSessionStateChange(session, session.getState(), null);
+		}
+
 		uiHelper.onResume();
 	}
 
@@ -91,39 +89,37 @@ public class MainFragment extends Fragment {
 		uiHelper.onSaveInstanceState(outState);
 	}
 
-	private void onSessionStateChange(Session session, SessionState state,
-			Exception exception) {
+	private void onSessionStateChange(Session session, SessionState state, Exception exception) {
 		if (state.isOpened()) {
 			Log.i(TAG, "Logged in...");
-			
-			Intent loginIntent = new Intent(getActivity(), MainMenu.class);
-			startActivity(loginIntent);
-			
-           // Session session = Session.getActiveSession();
-            session.closeAndClearTokenInformation();
-             session.close();
-			
+
+			//Intent loginIntent = new Intent(getActivity(), MainMenu.class);
+		//	startActivity(loginIntent);
+
+			// Session session = Session.getActiveSession();
+			//session.closeAndClearTokenInformation();
+			// session.close();
+
 			facebookLogin = true;
-					
+
 			Log.e("Logged In:", "YES");
-			
+
 		} else if (state.isClosed()) {
 			Log.i(TAG, "Logged out...");
-			
+
 			facebookLogin = false;
 			Log.e("Logged In:", "NO");
 		}
 	}
-	
-	
-	public boolean getFacebookLogin(){
+
+
+	public boolean getFacebookLogin() {
 		return facebookLogin;
 	}
 
 	private Session.StatusCallback callback = new Session.StatusCallback() {
 		@Override
-		public void call(Session session, SessionState state,
-				Exception exception) {
+		public void call(Session session, SessionState state, Exception exception) {
 			onSessionStateChange(session, state, exception);
 		}
 	};

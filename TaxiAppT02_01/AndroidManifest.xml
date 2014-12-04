@@ -137,7 +137,10 @@
     android:label="@string/title_facebook_login" >
 </activity>
         <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id"/>
-        
+        <activity
+            android:name=".ViewProfile"
+            android:label="@string/title_activity_view_profile" >
+        </activity>
     </application>
 
 </manifest>

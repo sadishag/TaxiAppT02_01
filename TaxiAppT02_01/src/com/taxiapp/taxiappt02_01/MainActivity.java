@@ -49,7 +49,7 @@ public class MainActivity extends FragmentActivity{
 		passwordField = (EditText)findViewById(R.id.password);
 		status = (TextView)findViewById(R.id.loginStatus);
 
-		
+		/*
 		
 		if (savedInstanceState == null) {
 			// Add the fragment on initial activity setup
@@ -62,6 +62,7 @@ public class MainActivity extends FragmentActivity{
 			mainFragment = (MainFragment) getSupportFragmentManager()
 					.findFragmentById(android.R.id.content);
 		}
+		*/
 	}
 
 
