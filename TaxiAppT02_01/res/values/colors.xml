@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     
-     <color name="yellow">#ffd700</color> <!-- Background colour for each screen -->
+       	<color name="red">#ff00</color>
+    	<color name="yellow">#ffd700</color> <!-- Background colour for each screen -->
     
 </resources>
