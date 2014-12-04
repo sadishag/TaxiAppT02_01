@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:orientation="horizontal"
     android:background="@color/yellow"
-    tools:context="${relativePackage}.${activityClass}" >
+    tools:context="com.taxiapp.taxiappt02_01.CalendarScreen" >
 
     <Button
         android:id="@+id/event"
@@ -12,6 +12,7 @@
         android:layout_height="wrap_content"
         android:text="@string/eventbutton"
         android:layout_centerHorizontal="true"
-        android:textColor="@color/red" />
+        android:textColor="@color/red"
+        android:onClick="bookRide" />
 
 </RelativeLayout>

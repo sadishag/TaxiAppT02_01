@@ -16,6 +16,7 @@ import com.taxiapp.taxiappt02_01.MainActivity;
 import com.taxiapp.taxiappt02_01.MainMenu;
 
 import com.taxiapp.controllers.SecurityController;
+import com.taxiapp.entities.CustomerInformation;
 
 import android.app.ProgressDialog;
 import android.content.Context;
@@ -110,15 +111,16 @@ public class SigninActivity  extends AsyncTask<String,Void,String>{
                 inStream = new InputStreamReader(response.getEntity().getContent());
                 in = new BufferedReader(inStream);
 
-
-
                 line="";
                 while ((line = in.readLine()) != null) {
                     sb.append(line);
 
                     break;
                 }
-                sb.toString();
+                String result = sb.toString();
+                String[] resultSplit = result.split(",");
+                resultSplit[7] = security.decrypt(resultSplit[7]);
+                CustomerInformation.setInformation(resultSplit);
                 
 			}
 			else {
