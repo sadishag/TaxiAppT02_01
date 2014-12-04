@@ -2,7 +2,7 @@ package com.taxiapp.entities;
 
 public class TaxiRideInformation {
     private static String username;
-    private static int datebookedfor;
+    private static String datebookedfor = "";
     private static String timebookedfor;
     private static String startaddress;
     private static String endaddress;
@@ -11,7 +11,7 @@ public class TaxiRideInformation {
     
     public static void setInformation(String[] str) {
         username = str[2];
-        datebookedfor = Integer.parseInt(str[3]);
+        datebookedfor = str[3];
         timebookedfor = str[5];
         startaddress = str[4];
         endaddress = str[6];
@@ -20,7 +20,7 @@ public class TaxiRideInformation {
     }
     
     public String getUsername() { return username; }
-    public static int getDate() { return datebookedfor; }
+    public static String getDate() { return datebookedfor; }
     public String getTime() { return timebookedfor; }
     public String getStartAddress() { return startaddress; }
     public String getEndAddress() { return endaddress; }
@@ -28,7 +28,7 @@ public class TaxiRideInformation {
     public String getTaxisharers() { return taxisharers; }
     
     public static void setUsername(String str) { username = str; }
-    public static void setDate(int str) { datebookedfor = str; }
+    public static void setDate(String str) { datebookedfor = str; }
     public static void setTime(String str) { timebookedfor = str; }
     public static void setStartAddress(String str) { startaddress = str; }
     public static void setEndAddress(String str) { endaddress = str; }

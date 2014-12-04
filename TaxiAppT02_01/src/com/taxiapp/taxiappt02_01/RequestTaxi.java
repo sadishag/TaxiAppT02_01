@@ -3,6 +3,8 @@ package com.taxiapp.taxiappt02_01;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
+import com.taxiapp.entities.TaxiRideInformation;
+
 import android.app.Activity;
 import android.content.Intent;
 import android.graphics.Color;
@@ -22,6 +24,7 @@ public class RequestTaxi extends Activity{
 	private EditText to;
 	private TextView date;
 	private EditText number;
+	private Button submit;
 	
 	
 	@Override
@@ -33,23 +36,31 @@ public class RequestTaxi extends Activity{
 		to = (EditText) findViewById(R.id.torequst);
 		date = (TextView) findViewById(R.id.daterequst);
 		number = (EditText) findViewById(R.id.numberrequst);
+		submit = (Button) findViewById(R.id.event);
 		
-		SimpleDateFormat sdf = new SimpleDateFormat("yyyy/MM/dd");
-		String currentDateandTime = sdf.format(new Date());
-		
-		date.setText(currentDateandTime);
-		date.setTextColor(Color.GRAY);
+		setDate();
 		
 	}
 	
-	public void listenToRegister(View view) {
-		String fromfield = from.getText().toString();
-		String destinationfield = to.getText().toString();
-		String datefield = date.getText().toString();
-		
-	}
 	public void dateOnClick(View view){
 		Intent calendarIntent = new Intent(this, CalendarScreen.class);
 		startActivity(calendarIntent);
+	}
+	
+	public void setDate() {
+		
+		if (TaxiRideInformation.getDate() != "") {
+			String dateString = TaxiRideInformation.getDate();
+			date.setText(dateString);
+			date.setTextColor(Color.GRAY);
+			}
+		
+		else{
+			SimpleDateFormat sdf = new SimpleDateFormat("yyyy/MM/dd");
+			String currentDateandTime = sdf.format(new Date());
+			date.setText(currentDateandTime);
+			date.setTextColor(Color.GRAY);
+
+		}
 	}
 }
