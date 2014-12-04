@@ -78,7 +78,7 @@ public class MainMenu extends Activity {
 			
 			@Override
 			public void onClick(View v) {
-				Intent intent = new Intent(MainMenu.this, CheckinScreen.class).putExtra("from", "MainMenu");
+				Intent intent = new Intent(MainMenu.this, CheckinScreen.class).putExtra("this", "MainMenu");
                 startActivity(intent);  				
 			}
 		});
