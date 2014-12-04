@@ -62,6 +62,11 @@
         <activity
             android:name=".MainMenu"
             android:label="@string/title_activity_main_menu" >
+            
+          	<intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
         
         <activity
@@ -75,10 +80,7 @@
         <activity
             android:name=".OfferTaxi"
             android:label="@string/title_activity_offer_taxi" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+
         </activity>
         <activity
             android:name=".CheckinScreen"
