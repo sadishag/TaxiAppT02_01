@@ -1,68 +1,82 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+   >
+  
+    <RelativeLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/yellow"
-    android:orientation="vertical" >
+    >
+    
+    <TextView
+        android:id="@+id/daterequst"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="37dp"
+        android:clickable="true"
+        android:onClick="dateOnClick"
+        android:hint="@string/input_request_taxiride_date"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+       	/>
+    
+    <EditText
+        android:id="@+id/fromrequst"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/daterequst"
+        android:hint="@string/from"
+        android:ems="10"
+        android:layout_marginTop="30dp"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/torequst"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/fromrequst"
+        android:ems="10"
+        android:hint="@string/to"
+        android:layout_marginTop="30dp"
+        android:singleLine="true" />
+
+    <TimePicker
+        android:id="@+id/timePicker1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/torequst"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/numberrequst"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/timePicker1"
+        android:layout_alignLeft="@+id/fromrequst"
+        android:ems="5"
+        android:hint="@string/number_of_riders"
+        android:layout_marginTop="30dp"
+        android:inputType="number" />
+    
 
     <Button
-        android:id="@+id/submitButton"
-        style="?android:attr/buttonStyleSmall"
+        android:id="@+id/submitrequst"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="38dp"
+        android:layout_below="@+id/numberrequst"
+        android:layout_marginTop="30dp"
         android:text="@string/search" />
 
-    <EditText
-        android:id="@+id/to"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/from"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="24dp"
-        android:ems="10"
-        android:hint="@string/to" />
 
-    <EditText
-        android:id="@+id/from"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_below="@+id/to"
-        android:layout_marginLeft="36dp"
-        android:ems="10"
-        android:hint="@string/from" />
-
-    <EditText
-        android:id="@+id/date"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/from"
-        android:layout_below="@+id/from"
-        android:ems="10"
-        android:hint="@string/input_request_taxiride_date"
-        android:inputType="date" />
-
-    <EditText
-        android:id="@+id/time"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/date"
-        android:layout_below="@+id/date"
-        android:ems="10"
-        android:hint="@string/input_request_taxiride_time"
-        android:inputType="time" />
-
-    <EditText
-        android:id="@+id/numberofriders"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/time"
-        android:layout_below="@+id/time"
-        android:ems="10"
-        android:hint="@string/number_of_riders"
-        android:inputType="number" />
 
 </RelativeLayout>
+</ScrollView>
+

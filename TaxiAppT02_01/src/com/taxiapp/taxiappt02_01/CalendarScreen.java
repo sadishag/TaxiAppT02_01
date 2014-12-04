@@ -12,20 +12,19 @@ import android.widget.RelativeLayout;
 
 public class CalendarScreen extends Activity {
 	
-	Button eventButton;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.calendar_bottom_view);
 		setContentView(R.layout.activity_calendar_screen);
-	
+		
         CalendarView mv = new CalendarView(this);
         setContentView(mv);
         
 	}
 	
-	public void bookRide(View view) {
-        Intent intent = new Intent(CalendarScreen.this, BookRide.class);
-        startActivity(intent);  
-    }
+	public void bookProceed(View view){
+		Intent bookIntent = new Intent(this, BookRide.class);
+		startActivity(bookIntent);
+	}
 }

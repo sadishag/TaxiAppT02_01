@@ -83,6 +83,10 @@
     <string name="registrationError">Registration Error!</string>
     <string name="tryagain">Try Again</string>
     <string name="title_activity_registration_success">MainActivity</string>
+    <string name="book">Book</string>
+    <string name="radingQ1">Would you ride with this TaxiSharer again?</string>
+    <string name="radingQ2">Would you recommend this TaxiSharer to a friend to share a taxi with?</string>
+    
 
     <string name="facebook_app_id">778051908932714</string>
     <string name="title_facebook_login">Facebook login</string>
