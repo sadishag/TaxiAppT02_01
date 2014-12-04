@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:orientation="horizontal"
     android:background="@color/yellow"
-    tools:context="${relativePackage}.${activityClass}" >
+    tools:context="com.taxiapp.taxiappt02_01.CalendarScreen" >
 
     <Button
         android:id="@+id/event"

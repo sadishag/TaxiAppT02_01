@@ -1,5 +1,6 @@
 package com.taxiapp.taxiappt02_01;
 
+
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Calendar;
@@ -10,7 +11,6 @@ import android.content.Intent;
 import android.content.res.Resources;
 import android.database.Cursor;
 import android.graphics.Color;
-import android.os.Bundle;
 import android.text.Html;
 import android.util.AttributeSet;
 import android.util.TypedValue;

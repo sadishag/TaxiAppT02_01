@@ -30,7 +30,8 @@
         android:layout_below="@+id/requesttaxishare"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="12dp"
-        android:text="@string/viewprofile" />
+        android:text="@string/viewprofile"
+        android:onClick="goToProfile" />
 
     <Button
         android:id="@+id/viewrides"

@@ -1,5 +1,7 @@
 package com.taxiapp.taxiappt02_01;
 
+import com.facebook.Session;
+
 import android.app.Activity;
 import android.app.Fragment;
 import android.content.Context;
@@ -78,21 +80,37 @@ public class MainMenu extends Activity {
 			
 			@Override
 			public void onClick(View v) {
-				Intent intent = new Intent(MainMenu.this, CheckinScreen.class).putExtra("from", "MainMenu");
+				Intent intent = new Intent(MainMenu.this, CheckinScreen.class).putExtra("this", "MainMenu");
                 startActivity(intent);  				
 			}
 		});
 		
 		//for logout button
 		logOut.setOnClickListener(new View.OnClickListener() {
+           
 			
 			@Override
 			public void onClick(View v) {
+				
+				  
+				
 				Intent intent = new Intent(MainMenu.this, MainActivity.class);
                 startActivity(intent); 
+                
+
 				
 			}
 		});
+		
+		
+	}
+
+	public void goToProfile(View view) {
+	    Intent profileIntent = new Intent(this, ViewProfile.class);
+	    startActivity(profileIntent);
+	    
+	    
+	    
 	}
 }
 	

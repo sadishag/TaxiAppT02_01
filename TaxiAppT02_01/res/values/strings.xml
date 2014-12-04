@@ -40,7 +40,7 @@
     <string name="input_request_taxiride_date">Date mm/dd/yyyy</string>
     <string name="input_request_taxiride_time">Time 24hrs hh/mm</string>
     <string name="number_of_riders"># of riders</string>
-   	<string name="bookRide">Book Future Ride</string>
+    <string name="bookRide">Book Future Ride</string>
     <string name="offerTaxi">Offer Current Taxi</string>
     <string name="title_activity_ride_in_progress_screen">RideInProgressScreen</string>
     <string name="title_activity_calendar_screen">CalendarScreen</string>
@@ -87,5 +87,13 @@
     <string name="radingQ1">Would you ride with this TaxiSharer again?</string>
     <string name="radingQ2">Would you recommend this TaxiSharer to a friend to share a taxi with?</string>
     
+
+    <string name="facebook_app_id">778051908932714</string>
+    <string name="title_facebook_login">Facebook login</string>
+
+    <string name="title_activity_view_profile">ViewProfile</string>
+    <string name="gender">Gender</string>
+    <string name="modifyprofile">Modify Profile</string>
+    <string name="removeprofile">Remove Profile</string>
 
 </resources>
