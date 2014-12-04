@@ -18,6 +18,12 @@ import android.widget.Button;
 public class MainMenu extends Activity {
 	
 	Button offer, requst, viewPro, viewRide, checkIn, logOut;
+
+	public void goToProfile(View view) {
+	    Intent profileIntent = new Intent(this, ViewProfile.class);
+	    startActivity(profileIntent);
+
+	}
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -91,27 +97,16 @@ public class MainMenu extends Activity {
 			
 			@Override
 			public void onClick(View v) {
-				
-				  
-				
-				Intent intent = new Intent(MainMenu.this, MainActivity.class);
-                startActivity(intent); 
-                
 
-				
+				Intent intent = new Intent(MainMenu.this, MainActivity.class);
+                startActivity(intent);
 			}
 		});
 		
 		
 	}
 
-	public void goToProfile(View view) {
-	    Intent profileIntent = new Intent(this, ViewProfile.class);
-	    startActivity(profileIntent);
-	    
-	    
-	    
-	}
+
 }
 	
 	
