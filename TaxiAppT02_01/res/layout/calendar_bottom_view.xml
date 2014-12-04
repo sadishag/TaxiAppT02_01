@@ -13,6 +13,6 @@
         android:text="@string/eventbutton"
         android:layout_centerHorizontal="true"
         android:textColor="@color/red"
-        android:onClick="bookRide" />
+        android:onClick="bookProceed" />
 
 </RelativeLayout>

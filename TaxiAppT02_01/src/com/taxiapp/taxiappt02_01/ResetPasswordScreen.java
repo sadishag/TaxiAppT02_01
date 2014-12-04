@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 
 public class ResetPasswordScreen extends Activity {
 	
@@ -13,10 +14,12 @@ public class ResetPasswordScreen extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_reset_password_screen);
 		
+
+		
 	}
 	
 	public void listenToSubmit(View view) {
-		
+				
 		Intent submitIntent = new Intent(this, EmailSentNotificationScreen.class);
 		startActivity(submitIntent);
 	}

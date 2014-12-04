@@ -1,8 +1,14 @@
 package com.taxiapp.taxiappt02_01;
 
-import java.util.Calendar;
-import java.util.Date;
 
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.Calendar;
+
+import com.taxiapp.entities.TaxiRideInformation;
+
+import android.annotation.SuppressLint;
+import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.content.res.Resources;
@@ -11,6 +17,7 @@ import android.graphics.Color;
 import android.text.Html;
 import android.util.AttributeSet;
 import android.util.TypedValue;
+import android.view.ActionMode.Callback;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -18,11 +25,12 @@ import android.view.animation.TranslateAnimation;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
+import android.widget.ScrollView;
 import android.widget.TableLayout;
 import android.widget.TableRow;
 import android.widget.TextView;
 
-public class CalendarView extends TableLayout {
+public class CalendarView extends TableLayout{
 
 	
 	int day=0,month=0,year=0;
@@ -101,6 +109,7 @@ public class CalendarView extends TableLayout {
 			}
 			selected_day = 0;
 			DisplayMonth(true);
+			
 		}};
 		//Main function for displaying the current selected month
 	private void checkForEvents()
@@ -130,7 +139,9 @@ public class CalendarView extends TableLayout {
 		c.close();
 		db.close();
 	}
+	
 	int selected_day=0;
+	
 	void DisplayMonth(boolean animationEnabled)
 	{
 		checkForEvents();
@@ -179,21 +190,8 @@ public class CalendarView extends TableLayout {
 		android.widget.TableRow.LayoutParams lp;
 		
 		RelativeLayout rl = (RelativeLayout) LayoutInflater.from(context).inflate(R.layout.calendar_top_view, null);
-		RelativeLayout r2 = (RelativeLayout) LayoutInflater.from(context).inflate(R.layout.calendar_bottom_view,null);
-		
-		Button eventButton = (Button) findViewById(R.id.event);
-		
-//		eventButton.setContentView(R.layout.calendar_bottom_view);
-//		Button b = (Button) dialog.findViewById(R.id.Button_pumpInfo);
-//		b.setOnClickListener(new OnClickListener() {
-//
-//		   @Override
-//		   public void onCLick(View v) {
-//		       // profit
-//		   }
-//		});
-        
-		
+
+			
 		//create the left arrow button for displaying the previous month
 		ImageView btn1 = (ImageView) rl.findViewById(R.id.imgLeft);
 		
@@ -305,6 +303,8 @@ public class CalendarView extends TableLayout {
 				}
 				btn.setPadding(8,8,8,8);	//maintains proper distance between two adjacent days
 				tr.addView(btn);
+				
+				
 			}
 			
 			if(animationEnabled)
@@ -318,9 +318,11 @@ public class CalendarView extends TableLayout {
 			addView(tr);
 			
 		}
-		addView(r2);		
+		RelativeLayout r2 = (RelativeLayout) LayoutInflater.from(context).inflate(R.layout.calendar_bottom_view,null);
+		addView(r2);
 		
 	}
+
 	private TextView tv;
 	
 	
@@ -356,11 +358,25 @@ public class CalendarView extends TableLayout {
 			DisplayMonth(false);
 			/*save the day,month and year in the public int variables day,month and year
 			 so that they can be used when the calendar is closed */
-			
 			cal.set(Calendar.DAY_OF_MONTH, day);
 			
+			TaxiRideInformation.setDate(day);
+			
+			setDate("12345678");
+			
 		}
+
 	};
+
 	
+	public void setDate (String string){
+		ScrollView r2 = (ScrollView) LayoutInflater.from(context).inflate(R.layout.activity_book_ride,null);
+		TextView view = (TextView) r2.findViewById(R.id.datebook);
+		
+		SimpleDateFormat sdf = new SimpleDateFormat("yyyy/MM/dd");
+		String date = sdf.format(string);
+		
+		view.setText(string);
+	}	
 	
 }
