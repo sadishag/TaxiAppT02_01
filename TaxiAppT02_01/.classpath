@@ -6,6 +6,6 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="gen"/>
 	<classpathentry kind="src" path="/FacebookSDK"/>
-	<classpathentry kind="lib" path="C:/Users/Jack/git/TaxiAppT02_01/Libraries/facebook-android-sdk-3.21.0/libs/android-support-v4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Chenwei/git/TaxiAppT02_01/Libraries/facebook-android-sdk-3.21.0/libs/android-support-v4.jar"/>
 	<classpathentry kind="output" path="bin/classes"/>
 </classpath>
