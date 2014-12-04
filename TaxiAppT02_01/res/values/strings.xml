@@ -83,5 +83,7 @@
     <string name="registrationError">Registration Error!</string>
     <string name="tryagain">Try Again</string>
     <string name="title_activity_registration_success">MainActivity</string>
+    <string name="facebook_app_id">778051908932714</string>
+    <string name="title_facebook_login">Facebook login</string>
 
 </resources>

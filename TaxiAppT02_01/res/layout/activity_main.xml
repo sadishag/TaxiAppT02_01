@@ -28,36 +28,6 @@
         android:inputType="textPassword"
         android:hint="@string/password" />
 
-    <TextView
-        android:id="@+id/forgotpassword"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/register"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="22dp"
-        android:clickable="true"
-        android:text="@string/forgotpassword"
-        android:textAppearance="?android:attr/textAppearanceSmall"
-        android:onClick="listenToForgotPassword" />
-
-    <Button
-        android:id="@+id/login"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/saveCredentials"
-        android:layout_centerHorizontal="true"
-        android:text="@string/login"
-        android:onClick="listenToLogin" />
-
-    <Button
-        android:id="@+id/register"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/login"
-        android:layout_centerHorizontal="true"
-        android:text="@string/register"
-        android:onClick="pressRegister" />
-
     <CheckBox
         android:id="@+id/saveCredentials"
         android:layout_width="wrap_content"
@@ -94,5 +64,43 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="15dp"
         android:text="Login Status" />
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:layout_centerHorizontal="true"
+        android:layout_below="@+id/login"
+        android:onClick="pressRegister"
+        android:text="@string/register" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:layout_centerHorizontal="true"
+        android:layout_below="@+id/saveCredentials"
+        android:onClick="listenToLogin"
+        android:text="@string/login" />
+
+    <TextView
+        android:id="@+id/forgotpassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/register"
+        android:layout_centerHorizontal="true"
+        android:clickable="true"
+        android:onClick="listenToForgotPassword"
+        android:text="@string/forgotpassword"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <com.facebook.widget.LoginButton
+        android:id="@+id/authButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/forgotpassword"
+        android:layout_centerHorizontal="true"
+        android:onClick="facebookLogin" />
 
 </RelativeLayout>
