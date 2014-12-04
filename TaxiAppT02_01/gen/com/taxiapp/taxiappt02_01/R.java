@@ -1486,7 +1486,7 @@ containing a value of this type.
         public static final int action_menu_divider=0x7f080028;
         public static final int action_menu_presenter=0x7f080029;
         public static final int action_mode_close_button=0x7f080036;
-        public static final int action_settings=0x7f080087;
+        public static final int action_settings=0x7f080089;
         public static final int activity_chooser_view_content=0x7f080037;
         public static final int always=0x7f08001e;
         public static final int beginning=0x7f080023;
@@ -1514,7 +1514,7 @@ containing a value of this type.
         public static final int emailSentNotifTextView=0x7f080050;
         public static final int end=0x7f080025;
         public static final int errorMessage=0x7f080073;
-        public static final int event=0x7f080081;
+        public static final int event=0x7f080083;
         public static final int expand_activities_button=0x7f080038;
         public static final int expanded_menu=0x7f08003e;
         public static final int female=0x7f080071;
@@ -1532,10 +1532,10 @@ containing a value of this type.
         public static final int icon=0x7f08003c;
         public static final int ifRoom=0x7f08001d;
         public static final int image=0x7f080039;
-        public static final int imgLeft=0x7f080082;
-        public static final int imgRight=0x7f080086;
+        public static final int imgLeft=0x7f080084;
+        public static final int imgRight=0x7f080088;
         public static final int lastname=0x7f08006c;
-        public static final int linearLayout1=0x7f080083;
+        public static final int linearLayout1=0x7f080085;
         public static final int listMode=0x7f080014;
         public static final int list_item=0x7f08003b;
         public static final int login=0x7f080057;
@@ -1546,6 +1546,7 @@ containing a value of this type.
         public static final int map=0x7f08007f;
         public static final int match_parent=0x7f08000c;
         public static final int middle=0x7f080024;
+        public static final int modifyprofile=0x7f080081;
         public static final int monochrome=0x7f080013;
         public static final int never=0x7f08001c;
         public static final int none=0x7f080000;
@@ -1563,6 +1564,7 @@ containing a value of this type.
         public static final int radioGroup1=0x7f080061;
         public static final int register=0x7f080056;
         public static final int registrationError=0x7f080072;
+        public static final int removeprofile=0x7f080082;
         public static final int requesttaxishare=0x7f08005c;
         public static final int resetPasswordTextView=0x7f08007c;
         public static final int sandbox=0x7f080008;
@@ -1602,8 +1604,8 @@ containing a value of this type.
         public static final int to=0x7f080077;
         public static final int top_action_bar=0x7f080032;
         public static final int tryAgain=0x7f080074;
-        public static final int txtMonth=0x7f080084;
-        public static final int txtYear=0x7f080085;
+        public static final int txtMonth=0x7f080086;
+        public static final int txtYear=0x7f080087;
         public static final int up=0x7f080033;
         public static final int useLogo=0x7f080016;
         public static final int username=0x7f080052;
@@ -1679,9 +1681,10 @@ containing a value of this type.
         public static final int activity_request_ride=0x7f030025;
         public static final int activity_reset_password_screen=0x7f030026;
         public static final int activity_ride_in_progress_screen=0x7f030027;
-        public static final int calendar_bottom_view=0x7f030028;
-        public static final int calendar_top_view=0x7f030029;
-        public static final int support_simple_spinner_dropdown_item=0x7f03002a;
+        public static final int activity_view_profile=0x7f030028;
+        public static final int calendar_bottom_view=0x7f030029;
+        public static final int calendar_top_view=0x7f03002a;
+        public static final int support_simple_spinner_dropdown_item=0x7f03002b;
     }
     public static final class menu {
         public static final int book_ride=0x7f0c0000;
@@ -1855,6 +1858,7 @@ containing a value of this type.
         public static final int forgotpassword=0x7f060037;
         public static final int friday=0x7f060060;
         public static final int from=0x7f060071;
+        public static final int gender=0x7f060083;
         public static final int hello_taxisharer=0x7f060034;
         public static final int hello_world=0x7f060031;
         public static final int input_request_taxiride_date=0x7f060054;
@@ -1868,6 +1872,7 @@ containing a value of this type.
         public static final int male=0x7f060045;
         public static final int march=0x7f060064;
         public static final int may=0x7f060066;
+        public static final int modifyprofile=0x7f060084;
         public static final int monday=0x7f06005c;
         public static final int november=0x7f06006c;
         public static final int number_of_riders=0x7f060056;
@@ -1879,6 +1884,7 @@ containing a value of this type.
         public static final int register=0x7f060036;
         public static final int registrationError=0x7f06007f;
         public static final int rememberme=0x7f060038;
+        public static final int removeprofile=0x7f060085;
         public static final int requesttaxi=0x7f06003d;
         public static final int reset_password_instruction_text_view=0x7f06004e;
         public static final int resigtrationsuccmsg=0x7f06006f;
@@ -1910,6 +1916,7 @@ containing a value of this type.
         public static final int title_activity_request_ride=0x7f06007b;
         public static final int title_activity_reset_password_screen=0x7f060050;
         public static final int title_activity_ride_in_progress_screen=0x7f060059;
+        public static final int title_activity_view_profile=0x7f060082;
         public static final int to=0x7f060072;
         public static final int tryagain=0x7f060080;
         public static final int tuesday=0x7f06005d;

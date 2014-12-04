@@ -40,7 +40,7 @@
     <string name="input_request_taxiride_date">Date mm/dd/yyyy</string>
     <string name="input_request_taxiride_time">Time 24hrs hh/mm</string>
     <string name="number_of_riders"># of riders</string>
-   	<string name="bookRide">Book Future Ride</string>
+    <string name="bookRide">Book Future Ride</string>
     <string name="offerTaxi">Offer Current Taxi</string>
     <string name="title_activity_ride_in_progress_screen">RideInProgressScreen</string>
     <string name="title_activity_calendar_screen">CalendarScreen</string>
@@ -83,5 +83,9 @@
     <string name="registrationError">Registration Error!</string>
     <string name="tryagain">Try Again</string>
     <string name="title_activity_registration_success">MainActivity</string>
+    <string name="title_activity_view_profile">ViewProfile</string>
+    <string name="gender">Gender</string>
+    <string name="modifyprofile">Modify Profile</string>
+    <string name="removeprofile">Remove Profile</string>
 
 </resources>

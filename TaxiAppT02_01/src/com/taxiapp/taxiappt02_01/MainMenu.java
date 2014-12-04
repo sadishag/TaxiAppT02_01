@@ -93,6 +93,16 @@ public class MainMenu extends Activity {
 				
 			}
 		});
+		
+		
+	}
+
+	public void goToProfile(View view) {
+	    Intent profileIntent = new Intent(this, ViewProfile.class);
+	    startActivity(profileIntent);
+	    
+	    
+	    
 	}
 }
 	
