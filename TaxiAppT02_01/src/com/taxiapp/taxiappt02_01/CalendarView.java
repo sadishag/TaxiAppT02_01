@@ -1,6 +1,7 @@
 package com.taxiapp.taxiappt02_01;
 
 
+import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Calendar;
@@ -31,6 +32,8 @@ import android.widget.TableRow;
 import android.widget.TextView;
 
 public class CalendarView extends TableLayout{
+	
+	BookRide bookRideScreen = new BookRide();
 
 	
 	int day=0,month=0,year=0;
@@ -360,23 +363,13 @@ public class CalendarView extends TableLayout{
 			 so that they can be used when the calendar is closed */
 			cal.set(Calendar.DAY_OF_MONTH, day);
 			
-			TaxiRideInformation.setDate(day);
+			int supperDay;
+			supperDay = (cal.get(Calendar.YEAR)*100+ (cal.get(Calendar.MONTH)+1))*100 + day;
 			
-			setDate("12345678");
+			TaxiRideInformation.setDate(Integer.toString(supperDay));
 			
 		}
 
 	};
-
-	
-	public void setDate (String string){
-		ScrollView r2 = (ScrollView) LayoutInflater.from(context).inflate(R.layout.activity_book_ride,null);
-		TextView view = (TextView) r2.findViewById(R.id.datebook);
-		
-		SimpleDateFormat sdf = new SimpleDateFormat("yyyy/MM/dd");
-		String date = sdf.format(string);
-		
-		view.setText(string);
-	}	
 	
 }

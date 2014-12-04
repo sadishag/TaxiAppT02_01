@@ -26,5 +26,10 @@ public class CalendarScreen extends Activity {
 	public void bookProceed(View view){
 		Intent bookIntent = new Intent(this, BookRide.class);
 		startActivity(bookIntent);
+//		
+//		
+//		
+//		BookRide book = new BookRide();
+//		book.setDate();
 	}
 }

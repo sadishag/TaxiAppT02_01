@@ -5,23 +5,42 @@
     tools:context="${relativePackage}.${activityClass}"
     android:background="@color/yellow" >
 
+    
     <TextView
+        android:id="@+id/arrive"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/hello_world" />
+        android:text="" />
+    
+    
     <TextView
+        android:id="@+id/title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/hello_world" />
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:textSize="25dp"
+        android:text="Your Taxi Fee:" />
     <TextView
+        android:id="@+id/fare"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/hello_world" />
+        android:layout_below="@id/title"
+        android:textSize="55dp"
+        android:textColor="@color/red"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="$19.99" />
+
     
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/hello_world" />
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/fare"
+        android:layout_marginTop="50dp"
+        android:text="Rating It!"
+        android:onClick="ratingOnclick" />
     
 
 </RelativeLayout>
