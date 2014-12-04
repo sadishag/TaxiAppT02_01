@@ -129,5 +129,4 @@
             android:label="@string/title_activity_view_profile" >
         </activity>
     </application>
-
 </manifest>
