@@ -6,26 +6,36 @@
     android:background="@color/yellow" >
 
     <TextView
-        android:id="@+id/password"
+        android:id="@+id/passwordText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         android:text="@string/password"
         android:textAppearance="?android:attr/textAppearanceMedium" />
+<!--     <EditText -->
+<!--         android:id="@+id/passwordEdit" -->
+<!--         android:layout_width="wrap_content" -->
+<!--         android:layout_height="wrap_content" -->
+<!--         android:layout_centerHorizontal="true" -->
+<!--         android:layout_centerVertical="true" -->
+<!--         android:hint="@string/password" -->
+<!--         android:textAppearance="?android:attr/textAppearanceMedium" -->
+<!--         android:inputType="textPassword" -->
+<!--         android:visibility="invisible" /> -->
 
     <TextView
         android:id="@+id/username"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/password"
+        android:layout_above="@+id/passwordText"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="14dp"
         android:text="@string/username"
         android:textAppearance="?android:attr/textAppearanceMedium" />
-
+    
     <TextView
-        android:id="@+id/email"
+        android:id="@+id/emailText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_above="@+id/username"
@@ -33,12 +43,22 @@
         android:layout_marginBottom="15dp"
         android:text="@string/email"
         android:textAppearance="?android:attr/textAppearanceMedium" />
+<!--     <EditText -->
+<!--         android:id="@+id/emailEdit" -->
+<!--         android:layout_width="wrap_content" -->
+<!--         android:layout_height="wrap_content" -->
+<!--         android:layout_above="@+id/username" -->
+<!--         android:layout_centerHorizontal="true" -->
+<!--         android:layout_marginBottom="15dp" -->
+<!--         android:hint="@string/email" -->
+<!--         android:textAppearance="?android:attr/textAppearanceMedium" -->
+<!--         android:visibility="invisible" /> -->
 
     <TextView
         android:id="@+id/lastname"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/email"
+        android:layout_above="@+id/emailText"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="16dp"
         android:text="@string/lastname"
@@ -59,7 +79,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_below="@+id/password"
+        android:layout_below="@+id/passwordText"
         android:layout_marginTop="16dp"
         android:text="@string/gender"
         android:textAppearance="?android:attr/textAppearanceMedium" />
@@ -71,7 +91,8 @@
         android:layout_below="@+id/gender"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="17dp"
-        android:text="@string/modifyprofile" />
+        android:text="@string/modifyprofile"
+        android:onClick="modifyProfileEvent" />
 
     <Button
         android:id="@+id/removeprofile"
@@ -80,6 +101,7 @@
         android:layout_centerHorizontal="true"
         android:layout_below="@+id/modifyprofile"
         android:layout_marginTop="14dp"
-        android:text="@string/removeprofile" />
+        android:text="@string/removeprofile"
+        android:onClick="removeProfileEvent" />
 
 </RelativeLayout>
