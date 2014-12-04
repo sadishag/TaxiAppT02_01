@@ -4,6 +4,9 @@ package com.taxiapp.taxiappt02_01;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Calendar;
+
+import com.taxiapp.entities.TaxiRideInformation;
+
 import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.content.Context;
@@ -356,6 +359,8 @@ public class CalendarView extends TableLayout{
 			/*save the day,month and year in the public int variables day,month and year
 			 so that they can be used when the calendar is closed */
 			cal.set(Calendar.DAY_OF_MONTH, day);
+			
+			TaxiRideInformation.setDate(day);
 			
 			setDate("12345678");
 			

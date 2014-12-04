@@ -1,8 +1,8 @@
 package com.taxiapp.taxiappt02_01;
 
 import java.text.SimpleDateFormat;
-import java.util.Calendar;
 import java.util.Date;
+
 import android.app.Activity;
 import android.content.Intent;
 import android.graphics.Color;
@@ -11,6 +11,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+
+import com.taxiapp.entities.TaxiRideInformation;
 
 public class BookRide extends Activity {
 	
@@ -30,7 +32,9 @@ public class BookRide extends Activity {
 		SimpleDateFormat sdf = new SimpleDateFormat("yyyy/MM/dd");
 		String currentDateandTime = sdf.format(new Date());
 		
-		date.setText(currentDateandTime);
+		String dateString = Integer.toString(TaxiRideInformation.getDate());
+		
+		date.setText(dateString);
 		date.setTextColor(Color.GRAY);
 		
 	}
